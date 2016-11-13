@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="41" height="74" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value="Poochyena,60;Zigzagoon,30;Wingull,10;"/>
+  <property name="dayPokemonLevels" value="2-4;2-4;2-4;"/>
+  <property name="nightPokemonChances" value="Poochyena,60;Zigzagoon,30;Wingull,10;"/>
+  <property name="nightPokemonLevels" value="2-4;2-4;2-4;"/>
+  <property name="pvp" value="yes"/>
+  <property name="surfProbability" value="10"/>
+  <property name="waterPokemonChances" value="Tentacool,60;Wingull,20;Magikarp,15;Pelipper,3;Wailmer,1;Sharpedo,1;"/>
+  <property name="waterPokemonLevels" value="5-35;10-30;10-20;25-30;20-35;15-30;"/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="32"/>
+  <property name="yOffsetModifier" value="448"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="normal5.tsx"/>
+ <tileset firstgid="2049" source="Trees0.tsx"/>
+ <tileset firstgid="2359" source="Path0.tsx"/>
+ <tileset firstgid="2655" source="Cliffs02.tsx"/>
+ <tileset firstgid="2743" source="Buildings7.tsx"/>
+ <layer name="Walkable" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UOwqEQBBFUdHIHRn5CQYmU/ftoqygBbOeYKArOAduZvBoKLsOAAAAAAAAAAD+bxrzNsS+q2+/o7Zx+OEdl2gtbY121r7Zo6N0Jt0oZe99663uvdZz65/oG81Jd763tvovSZLydwOIZtZHaC8AAA==
+  </data>
+ </layer>
+ <layer name="Grass" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VsQ6AIAxF0a5+JTqhk/r/i5JA0hCistRq7kk6+/IsIAIAAAAAAAAAAAAAAADgiTCIjHmm4e00beuZa86zGGcMHb3onJZ9xs5vppxbnt04o+7H287VGd/auStfyFj2q85otWs9otMOtei8w6T887t8X3hv6jPmJafuzuv5XxvZPO5u6x710mGh32nr9xr/dwB1O8B0aC8AAA==
+  </data>
+ </layer>
+ <layer name="Water" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WMQqFQAxAwW29/wG/nfIbxROYxgtolARmIK0+4rI4BgAAAAAAAAAA9LVMY6w3R2OPxl+8Y475F258sj+NPRozzuHbjRn706gxyxbP3mOOwo2XyndPp8aMb/6Vyv89Gus0ntBeodBoLwAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RsQkAIAxFwZRWdoL7T+oG2igauesDn5cIAAAAAAAAAAAAgNxqub1grSfYqOMev3Zsk5uTf8nac9aL9w3coDLGaC8AAA==
+  </data>
+ </layer>
+ <layer name="LedgesDown" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UwQ0AEBREwR/916EUjaAPFeCImEn2/k4bAQAAAAAAAAAA8KecIvpkNZ2u22uT9vJAO3Cn1S/6GOAnAyaw9ehoLwAA
+  </data>
+ </layer>
+ <layer name="LedgesRight" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAgBsC6fk5aC8AAA==
+  </data>
+ </layer>
+ <layer name="LedgesLeft" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAgBsC6fk5aC8AAA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WOQ7CMBCFYZdW3EMLx4cOzsDBSCRGjCwP8TJGKf6vMcri5SVhHAIAAAAAAAAAAAAAAADg7xJDuMb57YjTev85ftvR+612xOh6a3O8LSHcl745eqxT92Pl91jn9yzMUeaePue2Nl+Px/ui+yk9l6TG0+Nvx/Xc5bp8PV455v3l/crcZPxU8dzlGq8chfV+W8/aovP2ztGLzrslx1fndznK839sFs96MAs5+jh6jvq7/keOpTonx3/99spxr17nda5Up62a7ZVj675xr+7o8637vdr9Yqm/3v1Z6/pH9uGtNbs2l9rrZu7D3wlIuXRoLwAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WMQrDMAwFUJMuGdL7X7dZQk0gpIm/Sob3Fi22QB8Eag0AAAAAAAAAAPKWubX3/K2j/4/qiGn9/xrs0ffZ14TEnH2fZH6b5Lx9vyfmuO/35BwrpHOsIMeMij1Mq9jDNDlmyDEjda/84+6puiMTrs5/9P6sjrg6/693d8Udfjb/3fwSOX4AQqqN1GgvAAA=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="41" height="74">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WwQqEIBCA4WgvUVu3oPd/jh5uExJCzGnKKTf+79JFxPkDq6oAAAAAAAAAAAAAAAAAe0NzfG2nWKvZVzIp9hoVazX77rkyZ6rnU/1CqZ45+nk55o31LKWjF+tZWkdrbt6PcM65vecse77L+frmf3qWjo55vLljvd4L4bMU7vvi74XwafFepPm1vSx6+vljUr2k/e7oebWHxX2xnb870EtieV+4+TX/26l9zvoBpYqwA2gvAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="84" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="xOffsetModifier" value="32"/>
+  <property name="yOffsetModifier" value="-512"/>
+ </properties>
+ <tileset firstgid="1" name="normal5" tilewidth="16" tileheight="16">
+  <image source="normal5.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="PGTilesetv" tilewidth="16" tileheight="16">
+  <image source="PGTilesetv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2049" name="PGTileseti" tilewidth="16" tileheight="16">
+  <image source="PGTileseti.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3073" name="PGTilesetiv" tilewidth="16" tileheight="16">
+  <image source="PGTilesetiv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4097" name="PGTilesetii" tilewidth="16" tileheight="16">
+  <image source="PGTilesetii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5121" source="Water02.tsx"/>
+ <tileset firstgid="5313" source="Trees0.tsx"/>
+ <tileset firstgid="5623" source="Cliffs02.tsx"/>
+ <tileset firstgid="5735" source="Path0.tsx"/>
+ <tileset firstgid="6031" source="Cliffs01.tsx"/>
+ <tileset firstgid="6261" source="Sinnoh Land Sea 3.tsx"/>
+ <layer name="Water" width="50" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TQQrCMBRFUSfuwP25pG5ZHIhBqgasvPzPCdxRO3inodvldNokSZIkSZJUqvtJb+DgWLHHSe/g4Fixbo7qFo616uB4Pek9HPUN3RzXc33HeCfpHRxPR+K7Hf39ONZyJLbvnfRGDg6O/xpWcXzaxJF3jNu6OGYtaQNHPcfsO+lm9lVw7O3kWL8Ohk4OSd/r8p9z6Og7qHIP7/ZWdoy7uzjGZ+mNvzoq1dWR3nOUJb1F0nw3d/o0v6BBAAA=
+  </data>
+ </layer>
+ <layer name="Walkable" width="50" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZQU7DMBBFveqi66jlDhyCo7DlGohVYJV2VVghttyAK3ABboNHkcUQ2Ulb2cl85z9plGZTzcvEcmbsnF0edueHZehhi1o8AvSwCT0IIYQQQkgJ2sa5Zx+fW+fuNv1V7l+apTO7jM7ne/DxtXfuftNf5f4I6iHxs//7jeZx8vk+KReJRx9vYB6CuLyqQHQgpDZudn0QQtJwjRDyH713IK8P5Nw19CClqOU7cW6HMBvKPQ+a20PPVHLOUZb0eC9Ql5Lod+ljMBdCmm91kdzpsRz0sEObWNsWPcb2tqlaWPIY29tQPYZ7W+wsAcEjlhvKOl+Lx9S7ZdUjdpaWqomlc7fh844935SHlVoEpvqKmEfOWnxv8/yPPt+M5TasWU6H25l781K9oNQiVz3OYapm1yK1mNOjFLXMfGqohVCLx1K0Dc6sZ4zO4D5+DSdD31RrJfTwKOsilW9X4HukJCHfVJ+O5pHqC1HW95gHEtrDUs96KbpfQq1FIPQZqLUgZK38AsBTuTGgQQAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="50" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC91by25UMQy9f1AqjW6oWJTHDhYsuoAt7OBrEUtgifoJgFjBL/QLmqhjYZk8HPs4HThSdEfT3sTHjh3HyWzbGG/2bXu7K/7RCN4/fX6Z26/Dtv0+6J4avMt9vg/kwfunz4XHtyzf94PuqUG0PfgY/7I9+Bj0fJXb69yulHYZYaUtatDaZYSRLRA8e2No7TLCSE7knPPYZYQVvlEb6yw/z9m4ZJdW00Azd5B+VDi8yO0CrD+NTZB2S7mfh2AeMq5HgsaI4CHjuuSD5EdjoHnUZJR8Wvw8Y6F59Oa8/JvXP+h98nEvD48/IOYY2eJpbk8AerHoFxGz5JyS64gGLX3Wvo/y98RsYV1HWvqsfd/yDy+fxOS2+nt0zqcB53GZn48NfuKVwaMHevfS6d9SDinTh7Rtn3L7nNuX3D6mv9/zzK2aDq16qe2TCYXD16Ps10cuLRlQuRZfU1Axq3D4cZT9Z7rjMvO+VQZ0zFr1vuzjvmIWOi+28pD67MnVyyNR8OSMXL6ZXBFlC+rHmzNadYqOU2QLT+47q9uI/WJiMdfKY1a3EXWVtP/JUy4cuZv2PbRfECSP6PmOynXleJzHc8OazjGSTRvbLCAexMGzz23JJnPDCBAPilcRMWvEDwEUD4usKPvQGojgUbAi96iB1g5eO4n0DzR4bZTbwlMHWjF/Wv2ifIP3KTGqA6HqcWWv/mxxrOrtiS0gDsnJoydLZM2dg2zi8fEZe0T5CqLWq5Ut8nxH7gUj9xIRtmidS63aS9w8umte8NjrPT+wzBfigeBSwGu9VszYhMt/SjwsaxqaQ4G3Zm1Z0yJ4FKysC0bNqwLvntnqHyhIuS0x9BRilTwzQJ2p9BA1p/iZgdceGtmieFjPBwmcu4WHlwvinFv+XSsbksfMObe2DwsPJBBnwAVa2SI4FHjy6ZZNVqPEqwe7ra674t6bFp4ztZX3Q3s42/1nON46Aqrug6qV9Grq0TU6BI+aPK28LfIelrfmU0NLbo3tLEDd75NoyRl1nhNxh7dg5q4cAohaiRbRNTi0LSRWnQ1G8Ig8l60BzQN9/1sLxD1FjlW19RZO7T6YFadwP8+LqHsrq4G+z7UaSP3dpy2Q+vsfbBHZ5wgR+kPeOZ8BegzN77wigLaJlLmWY63QHQq930xF6W4Wt8FsQ1+gQQAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="50" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RsQ0AIQwEQRfh/ot5UujpSUgRIUYzyaUnbcS9ekaMPNsKvvmz5X4reKXHUr3H8koPAAAAAAAAAAAAAAAAAACAG/2v9AFPoEEAAA==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="50" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SsQ3CMBCGUQ8RKQX794E1UlCxAJOECFlK6QKUu8t7kvv/07m1mNbp7AW/8SrS0blLTO4CAABjlrm1++c95rOX0D3dAgAAAOBy3rfvy653ZG057s/csavQsKvQUeVfZd9/VKElw58a2Va1I2LL6LaKHRGNbovc0GXYCAAAAAD83wYFZWEWoEEAAA==
+  </data>
+ </layer>
+</map>

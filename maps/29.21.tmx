@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="25" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value="Duskull,15;Shuppet,15;Zigzagoon,10;Linoone,10;Poochyena,10;Mightyena,10;Oddish,15;Wingull,9;Gloom,5;Kecleon,1;"/>
+  <property name="dayPokemonLevels" value="26-28;26-28;26;26-28;26;26-28;26-28;26-28;26-28;-25;"/>
+  <property name="fishPokemonChances" value="Magikarp,60;Tentacool,20;Wailmer,20;"/>
+  <property name="fishPokemonLevels" value="10-30;10-30;10-30;"/>
+  <property name="nightPokemonChances" value="Duskull,15;Shuppet,15;Zigzagoon,10;Linoone,10;Poochyena,10;Mightyena,10;Oddish,15;Wingull,9;Gloom,5;Kecleon,1;"/>
+  <property name="nightPokemonLevels" value="26-28;26-28;26;26-28;26;26-28;26-28;26-28;26-28;-25;"/>
+  <property name="waterPokemonChances" value="Tentacool,60;Wingull,35;Pelipper,5;"/>
+  <property name="waterPokemonLevels" value="5-35;10-30;25-30;"/>
+  <property name="wildModifier" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16">
+  <image source="PGTileseti.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="x" tilewidth="16" tileheight="16">
+  <image source="PGTilesetX.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2049" name="4" tilewidth="16" tileheight="16">
+  <image source="PGTilesetiv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3073" name="7" tilewidth="16" tileheight="16">
+  <image source="PGTilesetvii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4097" name="5" tilewidth="16" tileheight="16">
+  <image source="PGTilesetv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5121" source="Sinnoh Land Sea 3.tsx"/>
+ <tileset firstgid="6913" source="Fences01.tsx"/>
+ <tileset firstgid="7347" source="Path0.tsx"/>
+ <tileset firstgid="7643" source="Buildings7.tsx"/>
+ <tileset firstgid="7995" source="Buildings3.tsx"/>
+ <layer name="Walkable" width="26" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9siw8CwZRTTFG8D4q14aGrZg8+ObaP+GcVoeDcQ76WDPYeB+OioPRh4OwE2sj3bqWAfNf0DSjt7SMQ7gXgXmhghe04D8RkoRmaTimmdJkbxKB7OGAB8UGzEKAoAAA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="26" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjgHbARnGgXTAKRsEoGAWjYBSMAnIBAC6vj1UoCgAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="26" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC6sVZ2CoHSQ4QhrBJgaQa08y0J5QIA4jgMOlKbcnWZqwP1KharQVGRh0gFgXiPUUaWePsSKENgXSZjS0xxpqjy2QtiPSHhAg1R50QMh8GADZUQjERVBcimReCZJ4MRC/kCXOHmyAGL/gA8TmiWQS8w82e4gB9LaHXECs3kIiyoIwtPQBA67MEAyzi5Cd2NIRKYCYdE0NQGweoqU91LSL2DKOXvaAcAmR6Q45/ZFbF43iUUwJBgBS7A2NKAoAAA==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="26" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8sTZ2DII4BBAJlNCBAyD589pAB62aOsyMCgAsSqQKymSDt7yPUfOcBEkTR7qAFoYf4DWeLsoQUgJ0+Qaw8t3ESpPeQCWsUHPrsI2YktHZFqDz3SHa3zKDH2UNOuwVaWUpJ3RvEoHq4YANvd1C8oCgAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="20" tilewidth="16" tileheight="16">
+ <properties> 
+  <property name="dayPokemonChances" value=""/>
+  <property name="dayPokemonLevels" value=""/>
+  <property name="fishPokemonChances" value=""/>
+  <property name="fishPokemonLevels" value=""/>
+  <property name="nightPokemonChances" value=""/>
+  <property name="nightPokemonLevels" value=""/>
+  <property name="waterPokemonChances" value=""/>
+  <property name="waterPokemonLevels" value=""/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="normal7.tsx"/>
+ <tileset firstgid="1025" source="Tileset 1.tsx"/>
+ <layer name="Grass" width="40" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkbBKCAP2NIZj7pv1H2j7hv67gMAGHtMDoAMAAA=
+  </data>
+ </layer>
+ <layer name="Walkable" width="40" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkbBKBgFwwE8Zx9oFwwPMJcGZkoyMTBIAbE0E2XmzGWgjfuoDfD5FwAhOEtlgAwAAA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="40" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SwQ2DMAxFzRyJ1A5CGIVBSisWaTcpmY18NZYs1+KQtJz8pC+EjeJHEiLHcRzHcZw2biWP4ZwsDX7z8O2IdV4i6G81i1HnuZeDOeg9G/2QK30C3sIHybW3ql42viflLOn1+yXapXf/LMZSTyWT8OdaMnp43kui8b89fgH3TtUxG3Nwz4Lw4RonKF92037U6Mdu/4gE71Gc0w4ZGQXfgAwAAA==
+  </data>
+ </layer>
+</map>

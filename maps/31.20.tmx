@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="60" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value="Zigzagoon,30;Linoone,10;Poochyena,20;Mightyena,10;Oddish,15;Wingull,9;Gloom,5;Kecleon,1;"/>
+  <property name="dayPokemonLevels" value="26-26;26-28;26-26;26-28;26-28;26-28;26-28;25-25;"/>
+  <property name="fishPokemonChances" value="Magikarp,60;Tentacool,20;Wailmer,20;"/>
+  <property name="fishPokemonLevels" value="10-30;10-30;10-30;"/>
+  <property name="nightPokemonChances" value="Duskull,15;Shuppet,15;Zigzagoon,10;Linoone,10;Poochyena,10;Mightyena,10;Oddish,15;Wingull,9;Gloom,5;Kecleon,1;"/>
+  <property name="nightPokemonLevels" value="26-28;26-28;26-26;26-28;26-26;26-28;26-28;26-28;26-28;25-25;"/>
+  <property name="pvp" value="yes"/>
+  <property name="waterPokemonChances" value="Tentacool,60;Wingull,35;Pelipper,5;"/>
+  <property name="waterPokemonLevels" value="5-35;10-30;25-30;"/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="normal18.tsx"/>
+ <tileset firstgid="2049" source="normal5.tsx"/>
+ <tileset firstgid="3073" source="normal17.tsx"/>
+ <tileset firstgid="4097" source="normal16.tsx"/>
+ <tileset firstgid="5121" source="normal3.tsx"/>
+ <tileset firstgid="6145" source="normal7.tsx"/>
+ <tileset firstgid="7169" source="Tileset 3.tsx"/>
+ <tileset firstgid="8193" source="Sinnoh Land Sea 3.tsx"/>
+ <tileset firstgid="9985" source="Path0.tsx"/>
+ <tileset firstgid="10281" source="Cliffs01.tsx"/>
+ <tileset firstgid="10511" source="Cliffs02.tsx"/>
+ <tileset firstgid="10623" source="various3.tsx"/>
+ <tileset firstgid="11159" source="Buildings7.tsx"/>
+ <tileset firstgid="11511" source="Trees0.tsx"/>
+ <tileset firstgid="11821" source="Sinnoh Land Sea 4.tsx"/>
+ <tileset firstgid="13693" source="Hoenn Set 12.tsx"/>
+ <tileset firstgid="15085" source="Water02.tsx"/>
+ <layer name="Walkable" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3bMQ6CMBSAYcNmoq5OGgfFRZ3Em3hjj+MhbCMmahD6oPD68G/yDQYSXn9rnMj2k0lmyGtpz2FVav1u2ZP2HFb7pTaPtXnv2Sfteaz1s6Bqac9kyXsv+nXvpz1Pk5kz/2ExcLfv85Z6P99u6WycVYX1AM26XB/a9/l6tYvV6dequ26pX+wzFrq63K/dLCbJ3sck1t4kzZrOn3YTyT5D9x+6JM/cOrtS3tA3FW1nCm0X2tQ7OMfSSTCDdK66WUJn7dIs9r1t+1nRdJ5ifV9j7Ff1++jrWWenKF0S2HufHSHrRT95v77+hwAAAAAAALRcp/oz4D/5s1eU/OeCsyhGMwAAAAAAAAAAYI1/vytXfL51/v2asbxXQ796Dx8cgKcASwAA
+  </data>
+ </layer>
+ <layer name="Grass" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TOw6AIBAFQK5i5f1vaKy08ANKwMWZhJq3jyUlAEpM83Yot+/vrMOIHefM1SNHhA6PMvfK/ZUcEZ29Y60OR3iPnnsVeaevdqvVfy298y5Pqxl6dvbGVb5os+SqMc9onZR6uxt/72/1tMMR/yQAAAAAAAAAAAAAAAAA0MYCEZ7PXABLAAA=
+  </data>
+ </layer>
+ <layer name="Water" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2aQW6DMBBFUcVdeojeKumq7a67ZJfcJDcovVhjUSuWBQaMnbE970lPSiSEh48nQdhdBwAAAAAAAAAAqRj6rvvtH98Pb3K11Mbtdczr6HhNmN9PP45hNJ+H//vkjvkeGM+vLXRsbH2DU2MMH/eaPj1T1GPxM7D3yI71FRjPr+0ycS5p3WuJzW9ubs2d33VLfrUYymlqPm3JS3N+Oa4p1JNb70Up+r+l7v9Mrdf07Pxca+4lCVvqJURERESsyyWk6yvZtUjXWZIxSNdcinuQrv3Znu5+78xMc4ah96ZkKJefxcztcwHXWWt+hpbfWZIf+ZFfvebMT8OaDfOvvPzc9UKz3trymlfu/Fqee0az7yD1fipN+eWagxbyi0PTPpMUPfyiMLccc1BDv5Jfepd62Pbl0jHa+tbPcGkPZYv7LBERQ9p1Ol/pumpx6vlG67MK+ZHfGv8AH8Ob0QBLAAA=
+  </data>
+ </layer>
+ <layer name="Walkable" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YSwrCMBSF4QjOBLehUgSH1a04UVfgBlyW780ZFWkMSZNU7Ov+H1ywIYVwuElrlarHaF7vfQDqt8mV2ura5U2vpFuOOq+TrrOui66rrpuuOzlGGfKc+MmY/HrrsGx6BWkmmVKzrOlV4OkfvTNowVnT5R5rw3+i1Py6nDfah34CAAAAAAAAgHirqb8Q5srLHFuT4xdfj9F78UJ71b6W3oNVesucK30fmzmklHmvVK69GZOna/7neiE4U7uvYrJbC+/Fsp6LuQdvZfvSnhc7F+nIsloGUnPzvR+Hzr+U8b6yzzHzd8oZiIIrF1fOZFio+q7CN4Xw94FQP/rmSFLlnJOeWQjPkHS+vWqO78kMAAAAAF4eLGRsOgBLAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92bS24TQRCGZxVeYQsHIEGOUGSSBc7ES2c0yhESYxBBiBVCsEXOabgAr4uYHIge2SWVi+ruqp6Znm7/UmniaT/KX//V1Y7Ht8+K4hbFdLSO/eOieHzc3fFbaR8DXU+KYm7itYmFiTeT9Xm437LsL7/Q462F3xMz9vS4u2PDzzYG+mF4/TTxy8RvE382/OB+mF/X+YUebfx83Kkk/vPp/llRPDDx0MQjE/tn2+OYn0++fKWPk/oPJJ1fKon/fHpLeL1vwc+Xr/RxvuPFaDuqAP8dlv5YmfgrCCw6dof4SZ5LGtxr4XjuGKP8gKHWf33o+4v1sWbmN6aWgtoZSpL1CdcDMIyplPlJ/IzXY1ftgmjtYR2QcweCtecwYX50Xa2Rt3DNgrS1S73T9DF8TtLX+vZf6JrdiK6rPj503NcT7jz8VgLv0eeIqZrpTxeMxzivceraf6HS7iulorwaHhxDEMfWxbtS7l18/tMKuEn3Ib59oIRX7H7pEvCT9AyubwC3msyrTb594FTBq3b47zIS41D/2d6jtH5s4drPcq957/T/++2ZczPmuftgugrsB5rP3Fi29V+yxnE+XDD8vjLnGnFMhwrJGkRrW1qLkue/OiqK6yM7PxjPWTVi4fOdtie8M2xuTHyy8IPxXDnWo3b7fJcwkwnD7xU6RznmwBOzqwP95RIwCXlMyGNjqu3nS5/a+id1/7Vd12yC993WPznWcxfquu5oPe86x77f365zjLXu7yLHId5L6n1aoq56RtvXz1VDeyDnWk4p56HnMURtcx6bfedLT5wo9qYpzadEbfMtRzzDhtn5JjSfjXKp5dCeQVktRmuG5yTmhKXGg41Sr+XQ/Di/LTbMxg7/aTyYuvdA0jzHjN+4ml0QZvjvucKDudSwxIPjDReOIa1Zrn5PyN+aOk65hqVzC5zgOEYMga2r77bxoSbP2JLObYk4UY7Ulxw7zocaL+buwZLUKseTMqTs4BzuK5Kekqr3QJK5LQkj2j+4tZD6DveTqYJf7t5rBPxo3VKGtt4B1zlUAfw0ecaWZv3D/PDR14OnKPA54Cnhl6IHNXPq4tdcZ3Ap5Ie/H8Qe7CrPmNLMaUlYAT+47bpWo3IwpN9bt80ztjTrH2YHvDh22IvUb1wdd5lnbEnnFrPD6x3HDp+rLAy1/FL0oHZOcQ1zXjsf8b3Etu5J+eXuPRDXK2aEI7cOVgxDzXUmKXoPpJlb2iswR/Cd7bovjmHX+Q2hEA9ytTpjvPVhw+gjYdhnfjEVMreu3kF7xucNqy9krM/8Yirk/5O2vbLvelb4LWFIfqlLm6etR3Sp1L1HlVq+uXgPlEq+OV8nmELOuVz3y2no77tSmL8u5Lvm1ncbixuzPW+OnnPJds2t7XYj/PuuvdPtMXr/of0eW9QfHBv8+5qb0+0xm792zXchAgZLhl/KfP4BBExHZQBLAAA=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="80" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cPQ6CMBTA8fqROBC8hIuJMONVXHQxjpzIQzh5Nt2EGGLFlj6wytf/lzRNyiO2zeNRB01XSqVaywWxUrdIqXtk78tc8cv4855Cfm2XmK8dkvc4Kdd8pfe5+tSwf5NsntOszSr6ubaWuvEmF8v+XS3jVUzzcX2+dB3lXt+3giT/9FwIBHNz5c5iax4PLeNVTPOR5K5kHRI+8qmuvWWfjg32r20+8kmqqj6dN7K4sdLzXBrnO+/7zFRnbXG5MPaX90PQ9D2Jp6bvyS6gHjdT7Jukbuvx0u8hQ1b3PdbGObDL9Hrj6zzel3r1D2N8Jn3hjPqdus82AAAAAAAAAAAAAAAAAAAAfuO0bnsGw6D/lhAAAABAP5X/f0jS8PIASApDNQBLAAA=
+  </data>
+ </layer>
+</map>

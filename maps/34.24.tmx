@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="57" height="50" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="fishPokemonChances" value="Magikarp,60;Tentacool,20;Wailmer,15;Sharpedo,5"/>
+  <property name="fishPokemonLevels" value="10-30;10-30;10-30;30-35;"/>
+  <property name="pvp" value="yes"/>
+  <property name="waterPokemonChances" value="Tentacool,60;Wingull,35;Pelipper,4;Wailord,1;"/>
+  <property name="waterPokemonLevels" value="5-35;10-30;25-30;25-30;"/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="normal2.tsx"/>
+ <tileset firstgid="2049" source="normal3.tsx"/>
+ <tileset firstgid="3073" source="normal4.tsx"/>
+ <tileset firstgid="4097" source="normal5.tsx"/>
+ <tileset firstgid="5121" source="normal6.tsx"/>
+ <tileset firstgid="6145" source="normal7.tsx"/>
+ <tileset firstgid="7169" source="normal8.tsx"/>
+ <tileset firstgid="8193" source="normal9.tsx"/>
+ <tileset firstgid="9217" source="normal10.tsx"/>
+ <tileset firstgid="10027" source="normal11.tsx"/>
+ <tileset firstgid="11051" source="normal12.tsx"/>
+ <tileset firstgid="12075" source="normal13.tsx"/>
+ <tileset firstgid="13099" source="normal14.tsx"/>
+ <tileset firstgid="14123" source="normal15.tsx"/>
+ <tileset firstgid="15147" source="normal16.tsx"/>
+ <tileset firstgid="16171" source="normal17.tsx"/>
+ <tileset firstgid="17195" source="normal18.tsx"/>
+ <tileset firstgid="18219" name="Route_129" tilewidth="16" tileheight="16">
+  <image source="Route_129.png" width="1280" height="640"/>
+ </tileset>
+ <tileset firstgid="21419" source="normal1.tsx"/>
+ <tileset firstgid="22443" source="Cliffs02.tsx"/>
+ <tileset firstgid="22555" source="Water02.tsx"/>
+ <layer name="Water" width="57" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YOwqAMBBAQW+pV8w9LD2UWAgicf1AMAlTTKEB2RdtYpqGIQFUah7j69YtFz3b/au11kQtvXU+fb8AAACl7eetns5d576ot4fuu/mP63+35vb7zUzRf4OaG7/25p5byzcbzVPDfCV6e28EAAAAgNJWLZzPUYgsAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="57" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Y0W7DIAxF85f54GxPpE9rti/Z3jotk2Lp6taGkABhk4+EVNI2+GKwDcPQjs9xGL7G+uOEdYx5a7cG4yGPdbzvf6qxlf+EKzSK/3ytliNH47R+/0KNn70qfYte/Ih24G9n0IfPUBv3+Z21/SjjvK3tAzTy3KId+Nt5fO5Le1/bAp/vW7+VtmmbUxwngEZ8jnpxTu6gTfrYUN9izFdNgrJ2AtmjzTfbp2nTtF4B+gztvWK+S4PxLxZDtfX5V8CYyPsEia3PlhyZ39xcz2NoebAGZ2Jv2OHD2BicJ6ycdwT875m1o8UaDSt3/MI68V1nbDtbv3KuT2lMzSnmjEWxK8fOWL2RA+f61F7SxonZzT7IsbNGTNvjS7E1d48ctbdUfsL3cL5nxNZWeaPUOD3VLZiD9uSflJ97qlO4ztLyD8L724ptPfgPtbEP8XzJvmXbz8S2Gkxgr8Q5Pk+zNr5DsPxbQltsfWt3HZpNokueh/H53Kk11lqrXrTWv+jTdGp3OKJpIX3WuZPrJ+uepATWXpdaULvf0PRqdsX0cf3E9yQlsfa65QvWexvTdbFWB/O7UmeHmrA+9s2yQ6MVN9iXPWDFkSt9UAvNl47jOI7jOI7jOI7jOE4bfgCXRa8jiCwAAA==
+  </data>
+ </layer>
+</map>

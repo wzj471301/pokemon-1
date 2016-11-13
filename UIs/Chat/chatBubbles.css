@@ -1,0 +1,26 @@
+.chatBubble{
+	position: absolute;
+	display: inline;
+	text-decoration: none;
+	position:relative;
+	background:white;
+	//border:1px solid black;
+	
+}
+
+.chatBubble:after{
+	content: "";
+	position: absolute;
+	top: 90%;
+	left: 46%;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	box-shadow: 2px 2px 2px #a7a8ab;
+	border: 4px solid;
+	border-color: transparent #f3f3f4 #f3f3f4 transparent;
+	
+	
+}

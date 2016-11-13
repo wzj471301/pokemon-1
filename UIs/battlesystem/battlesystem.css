@@ -1,0 +1,453 @@
+.battle {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: url("pokemon_x_y_battle_scene_by_jenske05-d5ynr9c.png");
+    background-size: cover;
+    width: 650px;
+    height: 400px;
+}
+.battle_box {
+    width: 100p%;
+    height: 100%;
+    position: relative;
+}
+.battle_my {
+    width: 400px;
+    height: 50px;
+    // border:1px solid black;
+    position: absolute;
+    left: -5%;
+    bottom: 0px;
+}
+.battle_foe {
+    //  border:1px solid black;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 58.25%;
+    bottom: 35%
+}
+.battle_my img,
+.battle_foe img {
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    max-width: 100%;
+}
+.statbar {
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 1px;
+    background: rgb(141, 141, 131);
+    background: -webkit-linear-gradient(267deg, rgb(141, 141, 131) 0%, rgb(10, 35, 32) 100%) rgb(222, 222, 222);
+    background: -moz-linear-gradient(267deg, rgb(141, 141, 131) 0%, rgb(10, 35, 32) 100%) rgb(222, 222, 222);
+    background: -o-linear-gradient(267deg, rgb(141, 141, 131) 0%, rgb(10, 35, 32) 100%) rgb(222, 222, 222);
+    background: -ms-linear-gradient(267deg, rgb(141, 141, 131) 0%, rgb(10, 35, 32) 100%) rgb(222, 222, 222);
+    background: linear-gradient(183deg, rgb(141, 141, 131) 0%, rgb(10, 35, 32) 100%) rgb(222, 222, 222);
+}
+.battle_foe_statbar {
+    right: 0px;
+}
+.battle_my_statbar strong,
+.battle_foe_statbar strong {
+    text-shadow: #FFFFFF 1px 1px 0, #FFFFFF 1px -1px 0, #FFFFFF -1px 1px 0, #FFFFFF -1px -1px 0;
+}
+smaller {
+    font-size: smaller;
+}
+.hpbar_border {
+    position: relative;
+    left: 40px;
+    height: 10px;
+    width: 154px;
+    border: white 1px solid;
+}
+.hpbar {
+    position: absolute;
+    height: 7px;
+    width: 152px;
+    margin: 1px 1px 1px 1px;
+    border-top: 1px solid #00dd60;
+    background: #00bb51;
+}
+.hpbar-block strong {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.stat .debuff {
+    margin-top: 3px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    background: #FF1519;
+    color: white;
+}
+.stat .buff {
+    margin-top: 1px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    background: #00AD61;
+    color: white;
+}
+
+.typeicon {
+    width: 62px;
+    height: 23px;
+    background: url("../../battleSystem/type/Type-Icons.png");
+}
+.bug {
+    background-position: -11px -8px;
+}
+.dark {
+    background-position: -88px -8px;
+}
+.dragon {
+    background-position: -164px -8px;
+}
+.electric {
+    background-position: -10px -47px;
+}
+.fairy {
+    background-position: -88px -47px;
+}
+.fighting {
+    background-position: -165px -47px;
+}
+.fire {
+    background-position: -10px -86px;
+}
+.flying {
+    background-position: -88px -86px;
+}
+.ghost {
+    background-position: -165px -86px;
+}
+.grass {
+    background-position: -11px -126px;
+}
+.ground {
+    background-position: -88px -126px;
+}
+.ice {
+    background-position: -165px -126px;
+}
+.normal {
+    background-position: -88px -166px;
+}
+.poison {
+    background-position: -10px -167px;
+}
+.psychic {
+    background-position: -165px -167px;
+}
+.rock {
+    background-position: -10px -207px;
+}
+.steel {
+    background-position: -88px -207px;
+}
+.water {
+    background-position: -165px -207px;
+}
+
+.battle_controlbox {
+
+    background: #333333;
+    border: black 2px solid;
+    height: 150px;
+   
+}
+/*
+.battle_controlbox > div:nth-child(1){
+    float:left;
+    height: 150px;
+    display: inline-block;
+    width:50%
+}
+.battle_controlbox > div:nth-child(2){
+   
+    height:150px;
+    display: inline-block;
+    width:30%
+}
+.battle_controlbox > div:nth-child(3){
+    float: right;
+    height:150px;
+    display: inline-block;
+    width:20%;
+   // border: 1px solid green;
+}
+*/
+
+.skillbox{
+    border: white solid 2px;
+    height: 64px;
+    border-radius: 5px;
+    margin-top:5px;
+    
+    
+}
+.skillbox > div {
+
+    //display: inline-block;
+    position: relative;
+    //width: 150px;
+    height: 50px;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+    
+}
+
+.skillbox > div:nth-child(2n+1){
+    float:left;
+}
+.skillbox > div:nth-child(2n){
+    float:right;
+}
+.skillbox .up{
+    width:150px;
+    height:25px;   
+    text-align: center;  
+}
+.skillbox .up .skillname{
+    color:white;
+    margin: 0 auto;    
+}
+.skillbox .down{
+    width:150px;
+    height:25px;
+}
+.skillbox .down .typename{
+    text-align: center;
+    color:white;
+    height:15px;
+    width:50px;
+    //border: 1px solid red;
+    position: absolute;
+    bottom: 0px;
+    left:12px;
+    line-height: 15px;
+}
+.skillbox .down .pp{
+    color:white;
+    height:15px;
+    width:50px;
+    position: absolute;
+    bottom: 0px;
+    right:12px;
+    line-height: 15px;
+}
+
+
+/*
+['GenderRate=FemaleOneEighth\n', 'GenderRate=Female50Percent\n', 'GenderRate=AlwaysFemale\n', 'GenderRate=AlwaysMale\n', 'GenderRate=Female75Percent\n', 'GenderRate=Female25Percent\n', 'GenderRate=Genderless\n']
+*/
+
+.skillbox div.type-Normal {
+    background: #8a8a59 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Normal:hover {
+    background: #79794e url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Fire {
+    background: #dd6610 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Fire:hover {
+    background: #b4530d url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Water {
+    background: #386ceb url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Water:hover {
+    background: #1753e3 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Electric {
+    background: #f0c108 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Electric:hover {
+    background: #c19b07 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Grass {
+    background: #5ca935 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Grass:hover {
+    background: #4a892b url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Ice {
+    background: #69c6c6 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Ice:hover {
+    background: #45b6b6 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Fighting {
+    background: #9d2721 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Fighting:hover {
+    background: #82211b url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Poison {
+    background: #803380 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Poison:hover {
+    background: #662966 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Ground {
+    background: #d4a82f url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Ground:hover {
+    background: #aa8623 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Flying {
+    background: #9180c4 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Flying:hover {
+    background: #7762b6 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Psychic {
+    background: #f61c5d url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Psychic:hover {
+    background: #d60945 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Bug {
+    background: #8d9a1b url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Bug:hover {
+    background: #616b13 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Rock {
+    background: #93802d url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Rock:hover {
+    background: #746523 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Ghost {
+    background: #554374 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Ghost:hover {
+    background: #413359 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Dragon {
+    background: #4c08ef url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Dragon:hover {
+    background: #3d07c0 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Dark {
+    background: #513f34 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Dark:hover {
+    background: #362a23 url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Steel {
+    background: #9797ba url(http://i.imgur.com/ee2HfDF.png);
+}
+.skillbox div.type-Steel:hover {
+    background: #7a7aa7 url(http://i.imgur.com/ee2HfDF.png);
+}
+
+.battle_control_switch{
+    margin-top:5px;
+    //border: 1px solid red;
+}
+
+.switchpokemon .pkicon{
+    position: absolute;
+    
+}
+.switchpokemon .pkname{
+    color:white;
+    //position: absolute;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.switchpokemon .small_hpbar{
+position: absolute;
+    top:30px;
+    height:6px;
+    width:100%;
+    border:white 1px solid
+}
+.switchpokemon .small_hpbar .small_hp{
+
+    background: green;
+    margin: 1px;
+    height:2px;
+    width:100%;
+}
+.switchpokemon{
+    cursor: pointer;
+    margin-top:5px;
+    
+    position:relative;
+    height:40px;
+    width:100px;
+    border:solid 1px #30C4C9;
+    border-radius: 10px;
+    
+    
+}
+.switchpokemon:hover{
+border:3px solid #424254;
+}
+.switchpokemon:hover .small_hpbar{
+
+    border:0px;
+    
+}
+.switchpokemon:nth-child(2n+1){
+    float:left;
+}
+.switchpokemon:nth-child(2n){
+    float:right;
+}
+.battle_control_other {
+    position: relative;
+    clear: both;  
+    margin: 0 auto; 
+}
+.battle_control_other .items{
+    position: absolute;
+    right:102px;
+    top:-173px;
+    
+    border: 2px solid #230B00;
+    color:white;
+    text-align: center;
+    height:50px;
+    width:100px;
+    
+}
+.battle_control_other .run{
+ position: absolute;
+    right:0px;
+    top:-173px;
+    line-height: 50px;
+    border: 2px solid #230B00;
+    
+    text-align: center;
+    height:50px;
+    width:100px;
+    border-radius: 5px;
+    
+}
+.battle_control_other .items:hover,
+.battle_control_other .run:hover{
+    background: #9FD6D2;
+    
+}
+
+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="62" tilewidth="16" tileheight="16">
+ <properties>
+    <property name="dayPokemonChances" value=""/>
+  <property name="dayPokemonLevels" value=""/>
+  <property name="fishPokemonChances" value=""/>
+  <property name="fishPokemonLevels" value=""/>
+  <property name="nightPokemonChances" value=""/>
+  <property name="nightPokemonLevels" value=""/>
+  <property name="waterPokemonChances" value=""/>
+  <property name="waterPokemonLevels" value=""/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="normal5.tsx"/>
+ <tileset firstgid="2049" source="normal7.tsx"/>
+ <layer name="Grass" width="36" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XQQqAIBBAUcFNl+qGdRTvGLOQaqFo5swI/8OsinxYFIVApNMZ557fm1y/d/D87/myzozBgwcPHjxvj8U7uzc8eEY8I2arap6k5DriPSVPinqep2k1j+Y9k7zsT87D89zi8bY/ePDgwYMHT4tH8uTxtj948ODBg8fGI/+n+1b2yDGt8vdS1qyNdnjW8pBNF/Ucde/gIgAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="36" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZUQqDMBBES/PhYdqztB5MPEm9Yy0lUMSNyXY3mcg8EJSs2UcmoOgSLlksIX0tjX3OU7W/zAW19LH1ieOePrm123tqrE/J/D37vBR9vJiBXAgh+zyvrQ1IKzTPJS807xCe0CdNLz41HKW+Z/CZwvegj+zzL734jIPOxyOvPZeWPtpar7wsarWU9JByjFjkddSjBAsfS5BcyDFoeSH6IDohgeZDZNCyQvRBdEICzQcJtLVB289oPjkg/Dt68Ls4UXBb982de6cKb8DnhLDgIgAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="36" height="62">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZTQ7CIBAF4CYsvJ4HsT8HqZykekbLgsRUYOYhkIpvkreoaeEr07RqNzMMD0U2Yfs9T2E7dVxqXHp+23PbMwKZKnvWPUjZDjxID3I8aH+ROXI86P700POvnti9ylXsflLTU7voSZeNPL+WBsYZeJ62WDNLT7cezXe01DUfulZDc5fyLMIaunOXTCU9q8IT6gc99NT2XC+faeUJzU3P+T2z0hWL1vPNHPTQQw899NBDDz300HNGz2jwSO+FnAV9l5ibycT/B3Xlfzv4NUTHv4PxvZDKe9Dx6SnvOfbc1/HzVh7tvj14Xs3NZ9zgIgAA
+  </data>
+ </layer>
+</map>

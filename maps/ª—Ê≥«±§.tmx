@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Vulcano Tileset" tilewidth="32" tileheight="32">
+  <image source="Vulcano Tileset.png" width="216" height="97"/>
+ </tileset>
+ <tileset firstgid="19" name="cupola" tilewidth="32" tileheight="32">
+  <image source="cupola.png" width="258" height="205"/>
+ </tileset>
+ <tileset firstgid="67" name="Hoenn Interior Set 26" tilewidth="32" tileheight="32">
+  <image source="Hoenn Interior Set 26.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="131" name="Lapras" tilewidth="32" tileheight="32">
+  <image source="Lapras.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="195" source="Buildings4.tsx"/>
+ <tileset firstgid="883" name="Unova Cave Set 2" tilewidth="32" tileheight="32">
+  <image source="Unova Cave Set 2.png" width="128" height="254"/>
+ </tileset>
+ <tileset firstgid="911" name="SinnohSet3" tilewidth="32" tileheight="32">
+  <image source="SinnohSet3.png" width="656" height="506"/>
+ </tileset>
+ <layer name="块层 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2DsKgEAMQMGAtXhbzy8idq7rL5JiBlLZ5aG7OEXE1Jh52Kb1fB2+dbZrPf53tP/e6JFHj1r0qEWPWvSoZd/rGNd7jKFHFj1q2Vvc6eF7lefJ+6FHHj1qeXK/cn7k0aMWPWrp/ds9OjP0yKMHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABvLMr/SqM=
+  </data>
+ </layer>
+ <layer name="块层 3" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2M1KAnEUxuHZCN6AtSlt0YeLShdld1i7WrXL+/GyegMXfwY/RnDGwZ4HfijDWcg5CGJVcQ7e08epP8SZG9ba9fwzfXX66f6f4f6RRjMch3v0w/f6tb7rUbpIl8Uz92jXT1qu35e7vkrXaZwm6SYNKvfoUrnr23SX7tNDmm6YoV3lrh/TU3pOszTfMEO7yl2/pNe0SG9bZmiX31f98rfrVYMZuuH70S/u0S+H/H9Ft+r34LTcAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAJn4BsVsJaA==
+  </data>
+ </layer>
+ <layer name="块层 4" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1stKw1AUhtHA6XPWS30CL7XgpO3A+xOoqI/aLfaQEBLIxG0Ga8FPL8nofKS0aYbtSvt+W0Zu4k/dlXb9Ht1r5FiXafO85FhPOGc98gz16D4X9bMeObo9/F79Pz3mRY95qT2Wi6Y5iZ3GzmLnsVXsYqFHptrjMs79KnYdu/lpELuNbfRIVXvcx7k/xB5jT7Hn2EvsVY9UtcdbnPt77ON4/p/x+hX71iPVlLPWI48e89L/Xzv2vR459uV3u4Ee29JeJ9dYDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6DsA9Is9tw==
+  </data>
+ </layer>
+ <layer name="块层 5" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0csNglAURdE3YKygViCidOC3AxDsvxpPESZv4FrJnt+cWwoA/MamKWWb2tSlXdqnQ1P7sv90zO59OqUhndMljf5RzTXb39I9PdIzvfyjminbz+mdlrSmj38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxBe/jBQ0=
+  </data>
+ </layer>
+</map>

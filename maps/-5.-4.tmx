@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="31" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value="Rattata,15;Meowth,15;Raticate,30;Magnemite,20;Pidgey,5;Pidgeotto,5;Miltank,5;Tauros,4;Snubbull,1;"/>
+  <property name="dayPokemonLevels" value="16-16;16-16;16-16;16-16;16-16;16-16;13-13;13-13;13-13;"/>
+  <property name="nightPokemonChances" value="Rattata,20;Meowth,20;Raticate,30;Magnemite,20;Noctowl,5;Miltank,2;Tauros,2;Snubbull,1;"/>
+  <property name="nightPokemonLevels" value="16-16;16-16;16-16;16-16;16-16;13-13;13-13;13-13;"/>
+  <property name="waterPokemonChances" value=""/>
+  <property name="waterPokemonLevels" value=""/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="-64"/>
+  <property name="yOffsetModifier" value="-96"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="Trees0.tsx"/>
+ <tileset firstgid="1335" source="Path0.tsx"/>
+ <tileset firstgid="1631" source="Buildings7.tsx"/>
+ <tileset firstgid="1983" source="Cliffs02.tsx"/>
+ <tileset firstgid="2071" source="Daycare Johto.tsx"/>
+ <layer name="Walkable" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WOxZAMBBFNfaURlAQKux/M9KkyZnEyEfGOa+4nXAN7yWq7zoFAAAfMFomJnMDP2NZLSeDq5HfLuA7wg9+EpHm53fawPR705M5fboRcPxMYG0Krm+pPqWu14F3qeUXm4e/JyzMGR7EWv8+NfYhN5fcjNTK2d/9uLnl9kBpPyoXof+sxvnGPV9H5pLSR6V4yqWUcyAAQD43v5KjxWATAAA=
+  </data>
+ </layer>
+ <layer name="Grass" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UMQqAMBBE0WlyTrVSq433b9xCQQSTQMQE/A+m/2yxEgAA/zEEaXzYFFrXSeYN0bcci5dtHfSdZm9ZEz2pO39x/1yf3W5bsjfvn+trjb469NWxzv4dAAAldmIvwR1gEwAA
+  </data>
+ </layer>
+ <layer name="LedgesDown" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QsQ0AIAwDwXTZfydgLlq6lKa4k763XAUAAPCf3XOn0yuz1vMFADkXj+btYmATAAA=
+  </data>
+ </layer>
+ <layer name="LedgesLeft" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OIQEAMAgAMBz9i12ShwaYCwRbgkUAALDh5fZgVn5f/ADgjgavKfKNYBMAAA==
+  </data>
+ </layer>
+ <layer name="LedgesRight" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OMQ0AMAgAMD78+9qJIBzw7CAkrYJGAADADS+3B7Py++IHwFUNy/pdQGATAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WUQrCMAyG+zAUeiPZjaTP+jrPMTfvohdzA4USWtOsSRahP4TQQSH9+jfL0Dl3W2Iwmi9LXA3nvfk0fo2fBU4Yv1Un79ydEA+vx2/V2TuyNPnF9WHn+qrvyoKbH3YuLc45flTVcpbyH8aHc3/Kf3Cd4yOluF9MCf/Bda0PUwoH+h6MD7VXwr5ZK4xPjVc1xF0ft79HcE8z8V5n8D3n73h/r3hnpf+PWOFTX+o9PY+89W35fwQBfpzzC6zv9YNZaX/hnF8o/OD71Zj/RkKPnUB90vOf1Sx17sbPRt6bz7/zewOrKqTPYBMAAA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VSwqAMAxEu/C2gjvBndCTSxeFUEiZNtOPkLe2Jn1OYgiO4/yd62g/c3ac6eXpqHVP7E/6Q7yk51+wP4Zn6Q/x0uKb4Vn6Q7xE0DfiGfHbk79MzQ/yXsSv5iPd3+InArXRHGfkfdL9rX7YlP6sftiU/lah5Ur6muFH62Pm/q+h9THz/1mrq+V7lT+0bjmnbJB81xg9p9bvw/Jn9aTB8jcqxydpz1k9aeyy/zRW7T8U92djd3+j5o7JB5bFbqdgEwAA
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="40" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8thYWDIBeKcQUoPdjDQ4TMafqPhR4k7R8MP4s4mFuzi1PLXSAs/cs0h1/9DNfxwAXT3Dzf/kQJS2EhTX89CvXQ5CugDRnL6JgdQUn+Qmp9oCWgdzyO1/UKuOSO1/TdY6cEOBjp8RsNvNPwGQzjhogFHZR85YBMAAA==
+  </data>
+ </layer>
+</map>

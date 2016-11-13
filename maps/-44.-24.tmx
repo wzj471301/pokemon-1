@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="43" height="25" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="normal9.tsx"/>
+ <tileset firstgid="1025" source="normal7.tsx"/>
+ <layer name="Grass" width="43" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwDoMH7l1qy5Tgo2Euqqqqq+uQACEq1oMwQAAA=
+  </data>
+ </layer>
+ <layer name="Walkable" width="43" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYPiC/SwD7YJRAAMpzBCMC8xnpa591DYPGeynstnUNm8UUAccGGTlBznl2WDzA70AofJmFIyCUUBdMJrnRgE1AC3bbpQC9Dp4tO02OAAAlvM1dMwQAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="43" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XXW7DIBCEI/kkjtuDJOCDuHkiF8k9+uKj9FoFiVVHKzA7OD+t1JFGjiKwP+8uizkPh8P53y/xW/THg/1+J65LtI+e1XWM/iQ95bkBrrfoUwdn4rLqRIwVOZgTMusavZBxduSz97KKfI4xamkw431a+Z2GNqvUk0jqiVGtNpC1xeEMrLU86RiyrLpWfzOry3X+DNZwB1bfYMV+dnlSXJfC+nK5z22xpjF6zfWw3ghWYdGsq4GV6VM11nUHq6wrzI30N5E17xZW3Le+wPJ/UL+RVfJvqXm2/5f6MiusWcm/peZ79ioUuzcmeYit7gFbegVr+EOsvXEtrTnG7PdAkv5mPHbWvYjp78zYpHUo99hezcRcdi/QfWtvfJlYsXuBr7Ais3Drs8sM/XrOvZmJ65UYO2YO69nmWPE0/JxBSnEdN+bq+1zh/XGelXHPe7DPscz7Bm43CgPMEAAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="43" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WIQ4AIAwEwSZ8nmejcARRBDTM2DMrL4Kf9Jbbblk1vdi5U60XAACqqPi1NZ+ZLQPYft5YzBAAAA==
+  </data>
+ </layer>
+</map>

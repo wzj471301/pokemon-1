@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="21" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="SinnohCaveset.tsx"/>
+ <tileset firstgid="1081" source="normal12.tsx"/>
+ <tileset firstgid="2105" source="SinnohCaveset2.tsx"/>
+ <layer name="Grass" width="20" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8tiYGDIGsWjmM44cxC4gZD7BrsbQXgUjILhBADhSNUxkAYAAA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="20" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC4tkYGAowoGjGUgH2UAcicOsTDLNy8YinkmmebjAYDEPn38LGXDHFa74w2UeOWZlIpknxU68n3CpRTaPGgCXeaS4FQZsOCA0yKxKIE6iEFdDzaWGWehmjoJRMFwAANkYpSGQBgAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGNwgG4jlOalrpjoVzQO5T5/K7huM4DArA8MRVuqZ9xho1hMqmsfMxsDAwkY985SBZqlQ0bxRMApGAWEAAJCrNHuQBgAA
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="20" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGNxAjpO65qlR2Tw9Kps3CkbBKBgFIxUAAL5CrDSQBgAA
+  </data>
+ </layer>
+</map>

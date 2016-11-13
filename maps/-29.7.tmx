@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="146" height="60" tilewidth="16" tileheight="16">
+ <properties> 
+  <property name="dayPokemonChances" value=""/>
+  <property name="dayPokemonLevels" value=""/>
+  <property name="fishPokemonChances" value="Magikarp,100;"/>
+  <property name="fishPokemonLevels" value="5-30;"/>
+  <property name="nightPokemonChances" value=""/>
+  <property name="nightPokemonLevels" value=""/>
+  <property name="waterPokemonChances" value="Tentacool,65;Hoppip,30;Tentactruel,5;"/>
+  <property name="waterPokemonLevels" value="5-40;5-15;35-40;"/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="-1920"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="Tileset 2.tsx"/>
+ <tileset firstgid="1025" source="Tileset 5.tsx"/>
+ <tileset firstgid="2049" source="Tileset 3.tsx"/>
+ <tileset firstgid="3073" source="Tileset 4.tsx"/>
+ <tileset firstgid="4097" source="Tileset 1.tsx"/>
+ <tileset firstgid="5121" source="normal2.tsx"/>
+ <layer name="Walkable" width="146" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aUQqCQBRAUb9sPy2gWkm2Em3pIRRZmOPEM8Y8B96HIDLgZcYPqwoAAAAAAAAAgDGHuqqOE3OqX+97XEOv76KZOceR6/fO2IacbnLmoqNNmdPEfvccHTGUsw9901HjbNuE80LnWdSeNPWdr89ylN5Ran1aKsPaO/L9VYZWRwRZuqUlO7rqqCh9S919SuqonViTvahsuU11iYnYM9qFnstvjL0/7xIAAABYs+E/Mp8GUnREBB0RQUdE0BERdESUOS3piRQdEUVHRNEREXREBB0BAAAAAAAAAPyfG+GcBRHgiAAA
+  </data>
+ </layer>
+ <layer name="Water" width="146" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1aW27jMAzMx+b+Bwp6k96kKLBbFMUaKt+kKNkeAYMkjqwHZ0jRst7/PB7vAAAAAAAAAAAAm+H1fDzenuvHAZwDR70cv3/8+/x88nWPv7nP1XMD+vRz1MuonVEPP/+P93Kf0NM1wcUbjm9OD1Ssotrp1hN026sdSRcUF5xuRnD1LJqt0It1nIAflHYke1u4iGiBWke5fMs6p9W2vSK4fDlqe4nTCI+UfsZ2quMW4AeXL0f50HLuqrFybUe0Ko0RurTbrooPqu2ZsYLL27R+PHk91kLZhtJzexW/3HVL+ao//rbqSdPX+L92H6DbXKrL8RtFZbHo1/pbqwf8h3Uvp1JHM4s2P+t/HpsBMR/z8LhaRzNyHMQlHh4fi+qoq8zmHvGIt4nHzl4Od9BRdl7HdpF3/0bUTyMcdpVZOhrbxvr2jaw/ebnrKl06Qjz6RtafvLx1ldk6iuQCV0e3T3WU6DytbVfo5yrvXFb61OxC9RndF5PazfCdPSOxC3YZa4eOvHxr7WJdy9l3B01Fxt71nvDKoOzd6U8c31YdcOcPqs+BVM7Ne1/mHJ/nXo0LytbcecGf613+pL3j1+ZEnT+I2JDqM8tB9r2K5TyBdjbBc692noGyNXW+54O53qEnKz/S+KV5eziI6KDKblJMpTTBaU7TJneNs3HED7P+lNWKNv+Mtka/sfq9Rx8Zu1nulTRhbT+bA+wEyYek2OCpL+mH407zU67Pivjd9XyQ1c4Oa5WFF45LbvweP7baQhuDdU3p5LcCkVxqtZY07Wixo4MzTS/V3I/cRPbEKuxiWftW617y4dVjy+quuh+rjrTYMOaM3P+SnnbDblrZxVbUOKw6sq7D3thi5arThjNy0wrsomtqHN51bUbetpsNrbnFLvraAV4dcXqS+vDaexU/3n53iQ8rUJ1nR55lrfx068my53N3SOuQtVjar6xj0d8Mnq+0j1oNyR4VOrLEEGkMnn1ja5szbIX4JNsgqyMPr8dxWPJ1i0ZnxyVqfnfVlMZxhY684/DEE4nDzrjU/ay6Eyy+06WjSo674hDV92obrLR7lY6q+dP2wzs5vbNOvHxV2Tq7N8Tth1M5lLbPnJkb1d9qrnaGdW+Ws6uWl2jcWvfDqRyKu7ciX4nmbHeHh1+LjTVuPXmxpmHtvUVVXAJ0jPxSHHlivcath2uvhrWxROwCTcXsRtl+Zqyf/Q6ioi2sb+fCjP0YT1uU5pB3nw/Vfl+xd4C8G6jgHTEIqNDBzP1y4DyoWouwpt0Xuz33AedExZqk7acBCTyDiLaj1TXqKaPFqvYug6gGToqZceO1wfxW4S9gdSX/4IgAAA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="146" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aPU4CQRiA4U2MIFjYeAM9gQcQTwKeBL2IB1ELz6EWNhqt7dTG3QTiMIFhcBfCz/MkX2g22/jmm8FQFAAAAAAAAAAAwHmrKHrBXLTqv7PXwDvYLP3ybz4I5vIfDYQdnrXrD5sn7miw4F7qj55LdXFz9Dda2k7TOsrdS+H5paPdNqzRUWzR8+vzWEfbJG7pqpzrGnfldbsjPXQnP1mefo09FFu3jl66k58sz7CBPRTTEU1Yp+/7vcPlvh8AAAAAYFVOu/MHUt47ec99ZD7HbtrP3DU6IiXsqPrN3ix7zjYScveRjkiJO7ptF8VdMPej3zToiJS4o8eym6dgnkcdnfjeRkK7bOMtuEN/zehozH2bWcY7aXzPjltyvpEj3kmVaedb1ZmOSAlbqnqpdtJ3MD/2EZly/gegI+bREU2ozrbXTnoOdAQAAAAAAAAAK/ULAvDX4eCIAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="146" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2dS24UMRCGvQgsEgkWyQ0AwTVAQnANgjgNp4ArsOQRBCdgwS5KIgEHYI0IuJUYWUWVq8ouP3rav1TKjKbb3eP6XC4/enJ6w7nTadOmTZs2bdq0a/vtjdIv5hzqc+mxqWv3rpdpvI9qCHLS6voSlqfV52bPW2Pkqmjy1IadmJf73h5cv77r7R44Nv48fh/+hrLgcb01WdKZRsHXMS9PvD1FjnHg88BLeB/+hrLC+8nT+kwSg+LYEzND+RtyE4TFKqwc6vxaklxnspTHD9ZXUf6GxztwHicYz7DzLWIUxYv0PidLV6YR1sdQ/uY+C8phIZwTlw95kJYr5YXT1nnCFPsAa68SPmKl+ghtWfAcLDejjqmtrbJE9WOxDyz6EehjS79y+Tx2jESpe0x91tunIzBkHYeosmvGCiof565D5XlaLnv7tbVhdUjFIQtRdV/CZkpwHMDxBbmB8xHScWJvv/bkqPWYuqUgp6k8Kn4Pj5O2q95+7cERjNnSuvqw79yJt4/7goOVunPo3AuFPT+ky8rNcVLizuvt15YWcqPcPuXM83Pu7aICRw8BFye3Pa/eXt1y7nVkb46ce3nTuUcJjlJxNve7c+f19m0Lbihp2+al5+fPwtCB4iShIEfnnqELb188N588P5+v7auAoyDLXI/r+618xqnHHANXJ7Vy3Rw9I7j4eXT195tn6Lu3H7fkHGmV6repefygFu0+VkueKFmPyXro2HP02JClhaG436ZyQKrttWAHUwueMI22fl4iy5h0BjiicsDSeFRzD14NpiRz1mvXsTFHl4Gdg/85wubaYuX2DbVkwZR1fr1Wab7nvzGEw8cSqfb3Vtg31JiPkErKlSRecm1q11Tje2LjNmmOUbpHYhSt6V5LZd2+qf0Fi3rmRL205j5Nc+/WbYYqj+vT1iysvlvOGVH+lnJA7T+w3geSI1ieNL+mnm/IubZmPZQ6FisrvMZYScXjWtKu8cNnRrD9Bzl1iF1T4z/JuoqUI7ivILU/hWIOriVLzqXqD1uXDq+xvWcl9VhL0D/hHjH+qTqMj0mVTV1LovhaFL/acRq1zwCLu1wfgrFI8UntZ+DUet8PVCpuYO1JwhZ8ti0Vd6n3UNJ2RdV/6TgNlh/fj/bZiNIcYCSl+lGqjTjieOpZJYwtqp3D96l7wO6xdL+IpIxYJf4vzV1G6KuCUn7h9iZCSepFuwec4gnyKJ1rs4pHtSXJpVI5Ww+l+vpF3N7EEknLgveVe0+547XW0vR9vblP9Wmj7jHIvS/JWgg2XtOK448bx3LjtxHVm2OomnUlXetcVLL/ncsFuHFYacxpyVvuM621Zc21NAZBjixiMfUcTG21jA3S3GIUvnKlZajGuggVnzBp42Av/2ivO1q/p1UJR9bPduWMZTn1Gq9hXKw95lDK6dMWq70uJalv7TGS9l7Dz7s0jwqVy0+w2vUhiSGpe0itvVj/zgenVFtbe3wqYchivCaVNoZI4qRkjqCGf7EysTWwkbTEm3eFrLQYr1ko9oUmnqR8WCMuceO0ln1eaX9kZbv22wk1c3GurlrxMwo7sVnHImsuAw8jjL17xO0RmaH6tUVW7Td3XYNbl8biDPUb1JbzznFZljFuLXxoOZLOzVJ7sri8hPMt5ESyjgL36cBzLfZqx/dhEeN2jR/IURC1Xw/ziaSOoW9hLqrJizmG4bmWv9tY2l/vKj8UR9R+aWq/sHQ/lfS9dJ4pJ05YxSUtj7vOEMYRrHOsf8kdn0tUew3Coiztd+7t454cjaAaz6JpysL6spy8u7ePt85R7zkJbr+j1Z7UXbA1K5V3vEe+mwWXOfl2bx+PbpivWkn6GypQpflRzvzYVv+fQk3eKP9rmcxl3SrXmrn29izIcs1GW1bvOphmxxGc5y7hRzOftIX5o63Y0r+d7l1ZSb4dnxvKS/VxW2FoaspCfwErQ5f14IgAAA==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="146" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WwQmAMBAEwPsL8ZECrMZK7MRUkAq0VAM+UkKizMDCwX72eREAAAAAAAAAAAB80bVG3C213WfqKent9zx0HgDAlA4/EvBj2zJ6AQAAAAAAAAAAAAAAAAAAAAAAAAAAMJsHeuAWVeCIAAA=
+  </data>
+ </layer>
+</map>

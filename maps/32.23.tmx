@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="19" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTileseti.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2049" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetiii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3073" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetiv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4097" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5121" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetvi.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="6145" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetvii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="7169" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetviii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="8193" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGtilesetviiii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="9217" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetviiiii.PNG" trans="000000" width="480" height="432"/>
+ </tileset>
+ <tileset firstgid="10027" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetX.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="11051" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetxi.PNG" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="12075" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetxii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="13099" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetxiii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="14123" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetzkantoroutes1.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="15147" name="Untitled" tilewidth="16" tileheight="16">
+  <image source="PGTilesetzkantotowns1.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="16171" name="10" tilewidth="16" tileheight="16">
+  <image source="normal18.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="17195" source="Water02.tsx"/>
+ <tileset firstgid="17387" source="Cliffs01.tsx"/>
+ <layer name="Walkable" width="60" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGBjg6UIYDwcQIQTBxPgXphaEhxogxZ/DIa7J9eeof4cGGGn+BYFR/476d9S/Q9e/IIDPT2eYUPFQ9ysIEOvX4eJfEMDm3z/OED9qIPGHi39BAFc8Gw2TfIsNDOdyChsYSX6FgZHiT2QwkvxKbwAAcQ7lBtARAAA=
+  </data>
+ </layer>
+ <layer name="Water" width="60" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RwQ0AIAhDUXZzamYzJsYJ9AAtkv6Ee1/wYeaku8XaFX3zwXpaBbYinL//Ozq2B2mt7M2MbZNXXnl7eTPNbJe88na3ZpjZFrSZ7UCa2fvlre/dsRr5UNARAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="60" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WWW07DMBBF/UNQBYUl8AfiJxViCelueC2E10KgZSGlZSG8FPrZROKO7BGj0aTkowLPlY6sOlaVoxs7CeHvU1chfIGzMoRzcAEuwVUZ55ll9Q83t8HUwoVyDb8bcAvuwH0Z5w/HcfTqrj05D/B7BBMwBU9l93+0TrzJdaXukfubwe8ZzMECvBi+vJZ8myqOuTqzq/blvMLvDbyDD/ApfNmTI33bTH1XHb7kQuyMQtgFQ7AH9kc/13Q8+W6RW3KwXKx47rdJY19XjlzvxZe77drDv4WcB2BbjLn6Stc+vvK9tazss7nJuF+KtYetkOvBOPro945H32ZNx7VYI31bp77cbVfHvOYoXTtW+5RGvYdzjXa1nGmuACdp/jT91mdU7q6cPs4y+j2U+7lsRbv2Oa89disjzy2rY+51IJ7n3L8x1oV9ddfy+ZXnUiG8Pfqyn3YulBt3qp03kW/TanJF0BEAAA==
+  </data>
+ </layer>
+</map>

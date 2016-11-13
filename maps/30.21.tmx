@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="46" height="25" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value="Duskull,15;Shuppet,15;Zigzagoon,10;Linoone,10;Poochyena,10;Mightyena,10;Oddish,15;Wingull,9;Gloom,5;Kecleon,1;"/>
+  <property name="dayPokemonLevels" value="26-28;26-28;26;26-28;26;26-28;26-28;26-28;26-28;-25;"/>
+  <property name="fishPokemonChances" value="Magikarp,60;Tentacool,20;Wailmer,20;"/>
+  <property name="fishPokemonLevels" value="10-30;10-30;10-30;"/>
+  <property name="nightPokemonChances" value="Duskull,15;Shuppet,15;Zigzagoon,10;Linoone,10;Poochyena,10;Mightyena,10;Oddish,15;Wingull,9;Gloom,5;Kecleon,1;"/>
+  <property name="nightPokemonLevels" value="26-28;26-28;26;26-28;26;26-28;26-28;26-28;26-28;-25;"/>
+  <property name="waterPokemonChances" value="Tentacool,60;Wingull,35;Pelipper,5;"/>
+  <property name="waterPokemonLevels" value="5-35;10-30;25-30;"/>
+  <property name="wildModifier" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16">
+  <image source="PGTileseti.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="x" tilewidth="16" tileheight="16">
+  <image source="PGTilesetX.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="2049" name="4" tilewidth="16" tileheight="16">
+  <image source="PGTilesetiv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3073" name="7" tilewidth="16" tileheight="16">
+  <image source="PGTilesetvii.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4097" name="5" tilewidth="16" tileheight="16">
+  <image source="PGTilesetv.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5121" source="Path0.tsx"/>
+ <tileset firstgid="5417" source="Sinnoh Land Sea 3.tsx"/>
+ <tileset firstgid="7209" source="Cliffs02.tsx"/>
+ <tileset firstgid="7297" source="Cliffs01.tsx"/>
+ <tileset firstgid="7527" source="Fences01.tsx"/>
+ <layer name="Walkable" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3FoQ0AAAgAIKcv+P+tdovVQGBkRyQAABxqDQD8N+29t734EQAA
+  </data>
+ </layer>
+ <layer name="Grass" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UQQ6AIAwE+wg+oZ7AE/j/f8lBk6YB04haMDtJj81u6RYiAADon8kRzawWZ+1Ih88+A6tV6VvO+/XM0ndQ6pf6tDM/Qcxa6ahTf1Po875k4JvjG7RbelupaWuyHJV7eoOatnWW7yKznAzf9g9MF7ntGT9IbuX/MMq9le4M9wYA6JkdqOrNpfgRAAA=
+  </data>
+ </layer>
+ <layer name="LedgesDown" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TwQkAIAwEsA7iDOr+07mA/QgiagL9t9w1AuBdtUS0yfRyejNYM+v0D33O7vTj96hJPjIEgL0Gnh+8qfgRAAA=
+  </data>
+ </layer>
+ <layer name="LedgesRight" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAACPBrs/BfH4EQAA
+  </data>
+ </layer>
+ <layer name="LedgesLeft" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WwQkAIAwEwSvEQnz6tP+K7CAPOaIhOwXokoAoAehijtcFd1Zit3NGUbd7F84ZRWe5d0G3tIt2/3CPW7QLoDv+ELmqdvOOAn86tnpW0PgRAAA=
+  </data>
+ </layer>
+ <layer name="Water" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQ0AIAgAQYZg/16t1EpdThagMxGSv+T7FwGQTVGR6tT0952v29twmnw/l/V72dt2OoG/AQAAgIguv/JalPgRAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WQQ6CMBBFewwX5QbeU1mqS3ThhlMQL6A38DJizCQVGZg/nVKb8JIfFoXpo20G2o1zbYG5VfkdNLkbeRM779weTO1ltYlY7zEOvcMRzInxngL15uj859r01zOTK+A9x5y3JQ3jPvSWwHmnYmw/LhHeBO33UqBrRuNv79wgzmEfzI30fKTyHp4xxEdKyvWWnlnNO1G9R+C99b/jaG9BvnnIedbOr3HlntfURbDy5u7X1LTGep6lvuHcfP9WLzdd9Z1n0F9KfFe0P3BM/e9I12OsBj0n6WWcv2RPYupb1VqzppS8ABg/lr/4EQAA
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="46" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VUQ7AIAhDOcZOvvPuf3GMlgqa2IQ/KU9FMTO7r/3CRNxZId5ZbqUY/y5Wj4HJqeD0GJicat4RA5LTJfTMOlnfQpi7+mEk5v9YhUftySjas8ye/rjZO0Fm3ox+Rt84Mq9mv0MV99d6xlMtdZ3qGa6u0T3HK7XjXtH/IVODzY1wevyRO8n4q7xOnDgxNx5GTjmC+BEAAA==
+  </data>
+ </layer>
+</map>

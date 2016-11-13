@@ -1,0 +1,118 @@
+/* Demo by http://creative-punch.net */
+
+
+
+
+
+.circular-menu {
+  
+    
+  width: 130px;
+  height: 130px;
+  
+  position: absolute;
+  
+}
+
+#circle_title{
+    border:1px solid black;
+    height:20px;
+    width: 130px;
+    position:absolute;
+    top:-30px;
+    text-align: center;
+    background-color:#79C8E7; 
+    
+}
+
+.circle {
+   position: absolute;
+    top:0px;
+   
+  border:black solid 1px;
+    border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  opacity: 0;
+    
+  
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.open.circle {
+    
+  opacity: 0.75;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+    background-color:#2F3130 ;
+   
+    box-shadow: #79C8E7 1px 1px 5px 2px;
+}
+
+.circle a {
+  text-decoration: none;
+  color: #eef;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  position: absolute;
+  text-align: center;
+  
+    border-radius: 50%;
+
+
+}
+.circle a img{
+  height: 40px;
+  width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.circle a:hover {
+  color: #FF895B;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+
+.menu-button {
+  border: 1px solid black;
+   
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  text-decoration: none;
+  text-align: center;
+  color: #444;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  padding:10px;
+  
+}
+
+
+
+.menu-button:hover ~.open.circle{
+     
+  //background-color: #eef;
+}
+
+/* Author stuff */
+
+

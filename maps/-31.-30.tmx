@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="22" height="24" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value=""/>
+  <property name="dayPokemonLevels" value=""/>
+  <property name="fishPokemonChances" value=""/>
+  <property name="fishPokemonLevels" value=""/>
+  <property name="waterPokemonChances" value=""/>
+  <property name="waterPokemonLevels" value=""/>
+  <property name="wildProbability" value="0"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="normal9.tsx"/>
+ <layer name="Walkable" width="22" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC72UDQ7CIAyFgaupV1HP4f815uZ2jznRaxi3e9hGcNhRhtmU5IUGmo/y1iGEEEc5ruzAeK6EWICWalzuDnh70AGUSl46sIcqCVcD7wq6mXprUGPOfzjxRr32qNawXplzXW7B3Klg4lDuv7kZ6GR0N75UMOdmP1HtvhXHLYlvjaceXM+Rqfw5Pm6fBzE533KTQE+HuCnxqiJ5BfH87Sn2uuK5Wnb7lHJjvPDVG8obwtUDuNS3UL3oSS3b/qLy+YW1XSJ8iOmxzPBwtv/NGFzfOsfF88+y21eutFNfDHcF/bhl3kL6LnL34OqNVZ8PF/Mdx+baeql/IX/LSH81k8OpdOIJeD0FzdQn9xfjCY5mJ4BACAAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="22" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7WTUQ6CMAyGxwbGaxDEnQNfOIc+qBxDH9SLeRCNB7FmW7I0XYsM/uQPK2s+tj9lUEq9CqXe4I92z1BP9aCcC+AdwSfwWbtaZzhwLaxv4Dv4oV2do5gba7sQ10Bdgiv/foXWJeG1lrkN1Btw69/baF37PezLCC5WH+13iV5LcLk8w72fwrcprmHysv6eVE+leW7D5BX6qZ5W4HL3GjvLc3INyivF3cPeIZonidsQeUncbmQONTqHxA3qBW6HziFxqblKzRgWx6XmKjVj/3BzRHGvC3ClTKfmK2VK5btD/F/N/W85Wpo7hzHvCykKD/FACAAA
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="22" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCoYuUGLCzx8FtAEAhWBFpUAIAAA=
+  </data>
+ </layer>
+ <layer name="random" width="22" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCkbBKCANAADzn1fmQAgAAA==
+  </data>
+ </layer>
+</map>

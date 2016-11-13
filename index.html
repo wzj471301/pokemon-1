@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html xmlns="http://ww.w3.org/1999/xhtml">
+<html>
+
+<head>
+	<title>注册</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="bootstrap-3.1.1-dist/css/bootstrap.min.css">
+	
+	<style>
+		body {
+			background: url("webpageBackground/4c0d4c540923dd54e318f34dd009b3de9c82484e.jpg");
+			background-size: cover;
+		}
+		#signInForm {
+			filter: alpha(opacity=90);
+			-moz-opacity: 0.9;
+			opacity: 0.9;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container" style="margin-top:30px">
+
+
+
+
+
+
+
+		<div class="col-md-6">
+			<div class="panel panel-default" id="signInForm">
+				<div class="panel-heading">
+					<a id="signBtn" class="btn btn-info">注册(不可用中文)</a>
+					<a id="logBtn" class="btn btn-info">登陆(不可用中文)</a>
+					<a id="game" class="btn btn-success pull-right" href="game.php">进入游戏</a>
+				</div>
+				<div class="panel-body">
+					<div id="signin-form">
+						<div class="form-group">
+							<label for="">注册邮箱/Sign in with email</label>
+							<div class="input-group">
+								<input type="email" class="form-control" id="userBox" placeholder="Enter email">
+								<span id="emailCallback" class=" input-group-addon "></span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="">游戏名/In Game Name</label>
+							<div class="input-group">
+								<input type="text" class="form-control" id="IGNbox" placeholder="游戏内名字">
+								<span id="IGNCallback" class=" input-group-addon "></span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="">密码/Password
+							</label>
+							<div class="input-group ">
+								<input type="password" class="form-control " id="Password1" placeholder="Password">
+								<div id="pass1callback" class=" input-group-addon"></div>
+							</div>
+							<br/>
+							<div class="input-group">
+								<input type="password" class="form-control " id="Password2" placeholder="重复密码">
+								<div id="pass2callback" class="input-group-addon"></div>
+							</div>
+						</div>
+
+						<a id="register" class="btn btn-sm btn-default">注册</a>
+					</div>
+
+
+					<div id="login-form" style="display:none">
+
+						<div class="form-group">
+							<label for="">邮箱/email</label>
+							<div class="input-group">
+								<input type="email" class="form-control" id="login-user" placeholder="Enter email">
+								<span id="emailCallback" class=" input-group-addon warning"></span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="">密码/Password
+							</label>
+							<div class="input-group ">
+								<input type="password" class="form-control " id="login-passowrd" placeholder="Password">
+								<div id="pass1callback" class=" input-group-addon"></div>
+							</div>
+
+						</div>
+
+						<a id="login" class="btn btn-sm btn-default">登陆</a>
+
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+<script src="jquery-1.11.0.min.js"></script>
+<script>
+	$('#userBox').on("keyup", function () {
+		$.post("php/checkUserExist.php", {
+			userName: $('#userBox').val(),
+			type: "userName"
+		}, function (data) {
+			if (data)
+				$("#emailCallback").html('用户名已经存在')
+			else
+				$("#emailCallback").html("用户名可以使用")
+		})
+	})
+	$('#IGNbox').on("keyup", function () {
+		
+		$.post("php/checkUserExist.php", {
+			userName: $('#IGNbox').val(),
+			type: "IGN"
+		}, function (data) {
+			if (data)
+				$("#IGNCallback").html('游戏名已经存在')
+			else
+				$("#IGNCallback").html("游戏名可以使用")
+		})
+	})
+
+
+	$("#Password1").on("keyup", function () {
+		if ($("#Password1").val().length <= 6) {
+			$("#pass1callback").html("密码不够长")
+		} else {
+			$("#pass1callback").html("");
+		}
+	})
+
+	$("#Password2").on("keyup", function () {
+		if ($("#Password1").val() == $("#Password2").val()) {
+			$("#pass2callback").html("")
+		} else {
+			$("#pass2callback").html("密码不匹配");
+		}
+	})
+
+	$("#register").on("click", function () {
+		if ($("#emailCallback").html() === "用户名可以使用") {
+			if ($("#pass2callback").html() === "" && $("#pass1callback").html() === "")
+				register();
+			else {
+				alert("检查你的输入");
+			}
+
+
+		} else {
+			alert("检查用户名和密码");
+		}
+
+	});
+
+
+
+	$("#signBtn").click(function () {
+
+		$("#login-form").slideUp();
+		$("#signin-form").slideDown();
+
+
+	})
+	$("#logBtn").click(function () {
+
+		$("#signin-form").slideUp();
+		$("#login-form").slideDown()
+
+	})
+
+	function register() {
+		var id = $('#userBox').val();
+		var psd = $("#Password1").val();
+		var ign=$("#IGNbox").val();
+		$.post("php/addUser.php", {
+			userName: id,
+			password: psd,
+			IGN:ign
+		}, function (data) {
+			alert(data);
+			
+
+
+
+		})
+	};
+
+
+	function login() {
+		var id = $('#login-user').val();
+		var psd = $("#login-passowrd").val();
+		$.post("php/login.php", {
+			userName: id,
+			password: psd
+		}, function (data) {
+			alert(data);
+
+
+
+		})
+	}
+
+	$("#login").click(function () {
+		login();
+	})
+</script>
+    
+
+</html>

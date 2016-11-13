@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="54" height="40" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value="Pidgey,50;Rattata,5;Sentret,40;Hoppip,5;"/>
+  <property name="dayPokemonLevels" value="2-4;2-4;2-3;3-3;"/>
+  <property name="nightPokemonChances" value="Rattata,45;Hoothoot,55;"/>
+  <property name="nightPokemonLevels" value="2-4;2-4;"/>
+  <property name="pvp" value="disabled"/>
+  <property name="waterPokemonChances" value=""/>
+  <property name="waterPokemonLevels" value=""/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="normal2.tsx"/>
+ <tileset firstgid="1025" source="normal1.tsx"/>
+ <tileset firstgid="2049" source="Cliffs01.tsx"/>
+ <tileset firstgid="2279" source="Buildings7.tsx"/>
+ <tileset firstgid="2631" source="Path0.tsx"/>
+ <layer name="Walkable" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WSw6CQBAEUBJZzcmISzXxGxQ/97+CmECik26dSLcz3dbibVgMFBUqNKGqGkXr3mawVb7XLyGXLchlC3LZgly2eM117J0GXQHPA3nM//z+3iwJKwc97QkHwfPjfJJ53511eXJTyFWCnYFccUeLQH9L1nJxXcQs53p0dw6v39KIytUGeh9zb5x0p1r9Sb2nT+dwnV4zPzfI4Trhro+7PPWfpq5pGllSWNvc1PdAbW5Kd5K9aKA210N31OZ+u7cAAJxZgbsOAP7cAZH0EDHAIQAA
+  </data>
+ </layer>
+ <layer name="Grass" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WwQrDIAwGYM++rN3J9mT35utFKCGxLk21yv+BsMF0/m0kOgcAAAAA8F7BO7cI4+N7704vHntfhbE1yBWMnmMg83vnikb/R+en4/MujK9hLqnec6a76+Z1Wp+fp+qCW7dFnWVP1UU65dmZXPTcjSqSXPS7Vu9nk8j7t8rVsrZr0JzavvK2XJS2r4yUa/X19yzut73P3Fmp35TeIzfPsr/XChX7lwa3X6t70V25X15l+Hc963uY1lXdjYrmmkWaNBcAAADM4wfVlZFBwCEAAA==
+  </data>
+ </layer>
+ <layer name="LedgesDown" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WsQkAIQwFUEv3n+K28dzoBC08RNBW34OQKk0gn4QAAACcKsfaU+lPK4CZN/5zI29kRp8zO3NwM3czWsmhfm/+GwAA4CQfE6yOesAhAAA=
+  </data>
+ </layer>
+ <layer name="LedgesLeft" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UsREAMAgDMcrsn5pdM0WOA6QJ/I0jAAAAqHRP9YI/Uhe04Yd6mdoFAACw3QMG/ooawCEAAA==
+  </data>
+ </layer>
+ <layer name="LedgesRight" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UsQ0AIAwDwZTsL1Fn1QyBACW6m8DfOAIAAM7s9XvBHTm0C5jD//aiqxddAAAAvFbMP26zwCEAAA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YSw7CMAxEzS69/yEQ9+MA7QIhCHXjbxykGanyJrbDPMUlpY3odjyUFXtl93vFdjxbYuyV3e/dF7zAC7zAC7zAC7zAq5qXVqO8rH5KXlqN8rL6ietc+Pdo+v6a+qI8I3erf1JF8/Fy/5H3fETXD9pHmk/K+s/2vd79+6LmGnX7coqrc+dmg3CesnknNdh1HinriN9/TN5pDWadR946afPIquw5VqQwf73+RPsrrSc8NyN/uDkkydf8v5HuJ/3czOYV/F7iZPaN2Z/1nrSKlrkneyXsO/ue7NUy3zWK4qzvDLNjta/gBV7g9X+x2lfwAq9PXjvq2U0cwCEAAA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RsQkAMAwEMZMq3n/bVJnCmAdpgoOrAgAAAAAg2bvbBTNObxfM8CuLX1n8yuJXFr+y+JXpA55NinbAIQAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YSw6DMAwFUVft/Q9biU27QrUsBzv+EVPPqkLgJG+CoWxbLI/X7/fnGTxYIjtYy/tG62pftWhftWhftWhftVjV1z4xF+iDuk7iSzveLDBvDuiDuk7iSzueBC53K9r61vuTy92Ktn7W/Unl5+l3tr5Xv6Xys/jF+3O2PnW+JuezfDT1Iva/pA5ex9l+h/W4PnEci+hXkjp4HVJfnIfj2FW+MFJfWUT3savw6mPWfLzzldbjzrPm4/2ckNbzHheT7cv7uTRCm9tofly91focZjS/jP+t0e+JFBnvxZ5epfO903cGyErfGTxpX7VoX7VoX7VoX7X4B19f43pXHsAhAAA=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="54" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YsQ6DMAxEGfv/39mBTm2nlg5ZrEa247sEpDsJecE2ugdOwn7btsdx7aRoxepj4+u43sRoxe7XIts38RIv8RIv8RKvFbyy8vJY/bK8svLyWP2idUb9iwrNJ8p91L+o0Hyq3K2q3we6Puo5WD6N1rfzsPocKG6j/txNTrZOdJ728v7V6N1XUbZOdP3r5T0dD1Dvc7VOdh59iDP2J/YcWyXUHEPvg6qK1ot+N6h1tqpoPXRfq9m80OtST6O+RffxXj/2fjEr79zVxD4nV3XWc3JVZ/mvsSrO+s8wO672VbzES7yuF1f7Kl7iJV7Xi01fX5uSDsAhAAA=
+  </data>
+ </layer>
+</map>

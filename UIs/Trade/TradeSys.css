@@ -1,0 +1,525 @@
+.shinystar {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 72.4008975317%;
+  width: 10px;
+  height: auto;
+  overflow: hidden;
+   
+  
+}
+
+.trade {
+  float: left;
+  width: 310px;
+  height: 394px;
+  margin: 38px 0 0 35.6%;
+  background-color: rgb(82, 77, 98);
+}
+
+.trade_control_confirm {
+  position: relative;
+  float: left;
+  z-index: 39;
+  width: 24.4299674267%;
+  height: 30px;
+  margin: 11px 0 0 7.48488%;
+  background-color: rgb(137, 227, 125);
+    cursor: pointer;
+}
+
+.trade_control_lock {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 40;
+  width: 25.7328990228%;
+  height: 30px;
+  margin: 11px 0 0 4.44556%;
+  background-color: rgb(210, 203, 136);
+     cursor: pointer;
+}
+.trade_control_lock:visited {
+
+  background-color: black;
+     
+}
+
+.trade_control_quit {
+  position: relative;
+  float: left;
+  z-index: 38;
+  width: 24.7557003257%;
+  height: 30px;
+  margin: 11px 0 0 9.12802%;
+  background-color: rgb(166, 64, 64);
+     cursor: pointer;
+}
+
+.trade_money {
+  float: left;
+  clear: both;
+  width: 70.5369729591%;
+  height: 21px;
+  margin-top: 10px;
+  background-color: rgb(222, 222, 222);
+}
+
+.trade_mypokemons_div {
+  float: left;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(251, 242, 242);
+}
+.trade_mypokemons_div img:hover{
+    border:2px solid black;
+    background-color:rgb(137, 227, 125);
+}
+
+.trade_mypokemons_inner {
+  float: left;
+  width: 94.2652329749%;
+  height: 51px;
+  margin: 7px 0 0 2.45058%;
+  background-color: rgb(222, 222, 222);
+}
+
+.trade_mypokemons_outborder {
+  float: left;
+  clear: both;
+  width: 91.5309446254%;
+  height: 65px;
+  margin: 8px 0 0 4.44556%;
+  background-color: rgb(83, 178, 187);
+}
+
+.trade_pokemon_div {
+  position: relative;
+  float: left;
+  width: 33.9484813533%;
+  height: 41px;
+  background-color: rgb(222, 222, 222);
+}
+
+.trade_pokemon_foe {
+  float: left;
+  width: 43.415122684%;
+  height: 199px;
+  margin: 6px 0 0 6.92638%;
+  background-color: rgb(75, 191, 222);
+}
+
+
+.trade_pokemon_foe .trade_money {
+  margin-left: 23.55928%;
+}
+
+.trade_pokemon_my {
+  float: left;
+  width: 43.4163701067%;
+  height: 199px;
+  margin: 6px 0 0 2.83227%;
+  background-color: rgb(75, 191, 222);
+}
+.trade_lock{
+    border:2px solid black;
+    
+}
+.trade_click_trade{
+    background-color: rgb(137, 227, 125) !important;
+}
+
+.trade_pokemon_my .trade_money {
+  margin-left: 23.55629%;
+}
+
+.trade_title {
+  float: left;
+  width: 91.475076297%;
+  height: 38px;
+  margin: 8px 0 0 4.51109%;
+  background-color: rgb(70, 195, 161);
+}
+
+.tradeblock {
+  float: left;
+  clear: both;
+  width: 91.475076297%;
+  height: 215px;
+  margin: 8px 0 0 4.52621%;
+  background-color: rgb(222, 222, 222);
+}
+
+
+
+.trade_mypokemons_div-1 {
+  margin: 9px 0 0 3.77403%;
+}
+
+.trade_mypokemons_div-2 {
+  margin: 10px 0 0 3.77403%;
+}
+
+.trade_mypokemons_div-3 {
+  margin: 10px 0 0 4.13624%;
+}
+
+.trade_mypokemons_div-4 {
+  margin: 9px 0 0 4.52766%;
+}
+
+.trade_mypokemons_div-5 {
+  margin: 9px 0 0 4.6211399999%;
+}
+
+.trade_mypokemons_div-6 {
+  margin: 9px 0 0 4.0895%;
+}
+
+.trade_pokemon_div-1 {
+  z-index: 17;
+  margin: 11px 0 0 7.46288%;
+}
+
+.trade_pokemon_div-10 {
+  z-index: 12;
+  margin: 12px 0 0 13.049%;
+}
+
+.trade_pokemon_div-11 {
+  clear: both;
+  z-index: 8;
+  margin: 14px 0 0 7.46382%;
+}
+
+.trade_pokemon_div-12 {
+  
+  margin: 14px 0 0 13.049%;
+}
+
+.trade_pokemon_div-2 {
+
+  margin: 11px 0 0 12.99657%;
+}
+
+.trade_pokemon_div-3 {
+  clear: both;
+  
+  margin: 12px 0 0 7.46288%;
+}
+
+.trade_pokemon_div-4 {
+ 
+  margin: 12px 0 0 13.04734%;
+}
+
+.trade_pokemon_div-5 {
+  clear: both;
+ 
+  margin: 14px 0 0 7.46288%;
+}
+
+.trade_pokemon_div-6 {
+ 
+  margin: 14px 0 0 13.0473410331%;
+}
+
+.trade_pokemon_div-7 {
+  
+  margin: 11px 0 0 7.46382%;
+}
+
+.trade_pokemon_div-8 {
+  
+  margin: 11px 0 0 12.99822%;
+}
+
+.trade_pokemon_div-9 {
+  clear: both;
+  
+  margin: 12px 0 0 7.46382%;
+}
+
+
+/*tradeDetail*/
+
+
+.tradedetail .element {
+  float: left;
+  width: 90.4593639575%;
+  height: 23px;
+  margin-left: 5.7715%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(222, 222, 222);
+}
+
+
+
+
+.tradedetail .other {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 24.9522171253%;
+  height: 135px;
+  margin: 5px 0 0 2.94343%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(158, 108, 162);
+}
+
+
+
+.tradedetail .text {
+  position: absolute;
+
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.tradedetail {
+    position: absolute;
+    margin: 50px auto;
+  float: left;
+  width: 363px;
+  height: 443px;
+  margin: 118px 0 0 34.15%;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(60, 55, 55);
+}
+
+.tradedetail_chart {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 67.2782874617%;
+  height: 135px;
+  margin: 5px 0 0 1.82531%;
+  border: 1px solid rgb(2, 235, 53);
+  background-color: white;
+}
+.tradedetail_table{
+    
+        width:100%;
+    height:100%;
+        border: 1px solid black;
+}
+.tradedetail_table tr td:nth-child(2){
+    background-color: #FB6E52;
+    
+}
+.tradedetail_table tr td:nth-child(3){
+    background-color: #4FC0E8;
+}
+.tradedetail_table tr td:nth-child(4){
+    background-color: #2ecc71;
+}
+.tradedetail_table tr td:nth-child(5){
+    background-color: #EC87BF;
+}
+.tradedetail_table tr td:nth-child(6){
+    background-color: #bdc3c7;
+}
+.tradedetail_table tr td:nth-child(7){
+    background-color: #FFCE55;
+}
+
+
+.tradedetail_table tr:nth-child(2){
+    border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+.tradedetail_table td{
+    text-align: center;
+    
+}
+.tradedetail_maininfo_table{
+    text-align: center;
+    border:1px solid black;
+    width:100%;
+    height:145px;
+}
+
+.tradedetail_info {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 16;
+  width: 35.1681957186%;
+  height: 198px;
+  margin: 10px 0 0 4.27657%;
+  border: 1px solid rgb(227, 103, 103);
+  border-radius: 5px;
+  background-color: rgb(222, 222, 222);
+}
+
+.tradedetail_info_item {
+  float: left;
+  clear: both;
+  width: 90%;
+  height: 40px;
+  margin: 4px 0 0 3.49882%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(208, 195, 139);
+}
+
+.tradedetail_info_item_inner {
+  float: left;
+  width: 91.0891089108%;
+  height: 30px;
+  margin: 5px 0 0 4.92032%;
+  background-color: rgba(98, 201, 219, 0.62);
+}
+
+.tradedetail_main {
+  float: left;
+  width: 91.0863509749%;
+  height: 355px;
+  margin: 5px 0 0 4.73973%;
+  background-color: rgb(214, 240, 196);
+}
+
+.tradedetail_name {
+  position: relative;
+top:70px;
+  float: left;
+  clear: both;
+  z-index: -5;
+  width: 101.1142061281%;
+  height: 40px;
+  margin: -49px 0 0 -0.5484%;
+  background-color: rgb(104, 193, 103);
+}
+
+.tradedetail_pic {
+  position: relative;
+  text-align: center;
+  float: left;
+  z-index: 5;
+  width: 130px;
+  height: 130px;
+  margin: -63px 0 0 -18.38005%;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 65px;
+  background-color: rgb(176, 217, 216);
+}
+.tradedetail_pic .image {
+    position: absolute;
+    bottom: 0px;
+    width:auto;
+    left: 0;
+    right: 0;
+	bottom:0px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+  
+}
+
+
+.tradedetail_skill {
+  position: relative;
+  float: left;
+  width: 53.6397058823%;
+  height: 41px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(222, 222, 222);
+}
+
+.tradedetail_skillbox {
+  position: relative;
+  float: left;
+  z-index: 29;
+  width: 52.5993883792%;
+  height: 203px;
+  margin: 5px 0 0 4.59193%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(244, 138, 138);
+}
+
+.tradedetail .element-1 {
+  margin-top: 7px;
+}
+
+.tradedetail .element-2,
+.tradedetail .element-3 {
+  clear: both;
+  margin-top: 8px;
+}
+
+.tradedetail .element-4 {
+  clear: both;
+  margin-top: 10px;
+}
+
+.tradedetail .text-1 {
+  top: 5px;
+  left: 9.635599159%;
+  z-index: 18;
+}
+
+.tradedetail .text-2 {
+  top: 22px;
+  left: 53.8192011212%;
+  z-index: 17;
+}
+
+.tradedetail .text-3 {
+  top: 5px;
+  left: 9.635599159%;
+  z-index: 21;
+}
+
+.tradedetail .text-4 {
+  top: 22px;
+  left: 53.8192011212%;
+  z-index: 20;
+}
+
+.tradedetail .text-5 {
+  top: 5px;
+  left: 9.635599159%;
+  z-index: 24;
+}
+
+.tradedetail .text-6 {
+  top: 22px;
+  left: 53.8192011212%;
+  z-index: 23;
+}
+
+.tradedetail .text-7 {
+  top: 5px;
+  left: 9.635599159%;
+  z-index: 27;
+}
+
+.tradedetail .text-8 {
+  top: 22px;
+  left: 53.8192011212%;
+  z-index: 26;
+}
+
+.tradedetail_skill-1 {
+  margin: 6px 0 0 5.06434%;
+}
+
+.tradedetail_skill-2 {
+  clear: both;
+  margin: 7px 0 0 40.06434%;
+}
+
+.tradedetail_skill-3 {
+  clear: both;
+  margin: 9px 0 0 5.06434%;
+}
+
+.tradedetail_skill-4 {
+  clear: both;
+  margin: 8px 0 0 40.09191%;
+}

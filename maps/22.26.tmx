@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="79" height="20" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="xOffsetModifier" value="32"/>
+  <property name="yOffsetModifier" value="-512"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="normal18.tsx"/>
+ <tileset firstgid="2049" source="normal5.tsx"/>
+ <tileset firstgid="3073" source="normal2.tsx"/>
+ <tileset firstgid="4097" source="Hoenn Set 15.tsx"/>
+ <tileset firstgid="5441" source="Cliffs01.tsx"/>
+ <tileset firstgid="5671" source="Cliffs02.tsx"/>
+ <tileset firstgid="5783" source="Buildings7.tsx"/>
+ <tileset firstgid="6135" source="Buildings8.tsx"/>
+ <tileset firstgid="6727" source="Sinnoh Land Sea 3.tsx"/>
+ <tileset firstgid="8519" source="Water02.tsx"/>
+ <tileset firstgid="8711" source="Buildings11.tsx"/>
+ <tileset firstgid="20135" source="Hoenn Set 5.tsx"/>
+ <tileset firstgid="20800" source="Hoenn Gyms.tsx"/>
+ <layer name="Walkable" width="79" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SsQ2AMBAEQTdAEe6W8pwg4QpoA0IHL/E+THS70oV2MPpSPDrr3Hp9f+8SdnrY6WGnh50ednpf7aK/XFpp5xZ2eordMcy5WbvrWRvsWjCXZu0ycwk7Pez0Vnthx91lwk4vY7Fv2EVxd3p/2N1N+S/7sBgAAA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="79" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VsQ2CYBCG4RtBfilsbVFhBjfAGeytiBvAkO5BQslX0GiDEMLlkvdJ3v7LNWcGADH0mfeCWIpkdlFXdVOlqpL3KgDY3+fgvSCmTH83qaPKVXM2e09hmZdu1qqO2325n7wXxPWsvRcA/+MPr/P7h4EtDA/vBcC8EYFYT+iwGAAA
+  </data>
+ </layer>
+ <layer name="Water" width="79" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VwQnAIBBFQQ9pJP13kR7STxARPLgEFyQEZuDf5cFiKUTus+06vn7J//R2dazRLk+7PO3ytMsb29W/to93Y7tZR2JRO3e8RjsAAGCHB7T7tDCwGAAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="79" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YuU7DMByHPSAGpnSgytKZa+AaQDCAYGCEiqfgEPfIxPkQnBV9CkBlgAEQsCN4Co5WwMJXxSYR2GlaMsX5SZ/+kmVb8ifF/yRC2JHLnBBXucbWTmS9tb+xJcrdRkaITdiCbdiB3Uz42tSdd95TPJ3BufRVol7U4a6lyT536qwveHqFN+mrTK1EcFd1FvRmm7u47jvl0JZEdaebF3RXz15JSZSzzjhCzMIczDv++CTupiTT2dSdLgXp64RadPRzgh5tiXLX5grRDh3QCV2uP+dR+nqiPhvc2RjlrhtXPdALfdDvhq9L47sbwNWg9DVEHU7d1YxyN4KrUelrjDpucFe06D6rlTj6oqkPJz1xuIvSh5MYk7uFvBCLsATLsAKrsJb/O9fWPmx6n93D0T4cwCEcwTEUNO5U1lu97zJbYnJ3jaMbuJWu7qj38BDiTu1nS3Tumumx7zgqQ0W6+qB+wlfq7ieN/resPp+6PYLjSY/uv+9/+QbyU0w6sBgAAA==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="79" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YOQ7CMBBF5whJA2kQW8HWhKWhZJdYlYuwH4eKK0DLCTgRBYhP4SKRY4wcChh/6RWWxlbyNJYTE/HIKUN0BmOXaAKmYAbmYOHqzY/CJcKdyXzhi6O7aC4a/SZbh6M7k/eNOrPu9OvsnlWn7hA1QBO0HPVa1p2NToS7rEeUA3lQAEUvXHdU9BvXCHcluCqDCqiCmqeeZ2P3rEmi7tpv+u2Q+t6z/FqS6Dvdc/jfonJ388Pjuy+v45o4d52AqAt6oA8GYAhGgbye4zkc9z27hKMVWIMN2IId2Me445ik/wU4ndsyd490eHz9oNc4ujPpP473T6/I7n1N4ZJvuHsCMeDBkrAYAAA=
+  </data>
+ </layer>
+</map>

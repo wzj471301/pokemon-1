@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="108" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="-2816"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="normal6.tsx"/>
+ <tileset firstgid="2049" name="PGTilesetX" tilewidth="16" tileheight="16">
+  <image source="normal18.png" trans="000000" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3073" source="normal2.tsx"/>
+ <tileset firstgid="4097" source="normal5.tsx"/>
+ <tileset firstgid="5121" name="PGTilesetX-fix" tilewidth="16" tileheight="16">
+  <image source="PGTilesetX-fix.png" width="704" height="512"/>
+ </tileset>
+ <tileset firstgid="6529" name="normal2" tilewidth="16" tileheight="16">
+  <image source="normal2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="7553" source="Hoenn Set 2.tsx"/>
+ <tileset firstgid="8148" source="Buildings8.tsx"/>
+ <tileset firstgid="8740" source="Sinnoh Land Sea 3.tsx"/>
+ <tileset firstgid="10532" source="Path0.tsx"/>
+ <tileset firstgid="10828" source="Buildings7.tsx"/>
+ <tileset firstgid="11180" source="Buildings11.tsx"/>
+ <tileset firstgid="22604" source="Hoenn Gyms.tsx"/>
+ <layer name="Walkable" width="40" height="108">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DMQ0AAAgDsJnZgX+DuCAcbdJOUlVV1YMAAAAAAAAAAAAAAAAA8NEC7AUAWoBDAAA=
+  </data>
+ </layer>
+ <layer name="Walkable" width="40" height="108">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3V2Q2CQBAAUCvRL5qwC3+txasESpAGbMWrDntwMSEhhmNBJEreSyYku9lhGHYhS2YvWelaxNSlFc9YjDXNVVnO4+8Rq+odZEn7XGyutjVtPRiyf11qyNXt0Xzs2LCH3/tXzt9nz7/nSUv5Y89SU1/61HSq2It1dcYY6ltwDnVdQlxD3ELca87MP/jkXI+Rr8lq3X3NGP+DTahrG2IXYh/i0KHOMfvXx6//T6fSv8fiu3UAAAAAAAAAAAAAAAAAADBtT9q9KnGAQwAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="40" height="108">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3USQ6CMBTG8SaOp8CV82VZO8atd3A8ieM9/EhkQwpYWlzo/5d8geSF9pXAM+Z/zSJj5spCWSorZR2V1/Js+mH32Ol+rxyUo3JSzlF5zYXPHnn1rd7DRderclPuykN5VuivaJ20ds/Ukv3Lemj0jGkqLaWtdJRuz72/onXSWjtnj6JnB7oOlZEyVibKtEJ/2XVstYRtD1sP8fsbjy3fegjpP2T7l77x/KfqOn8ooc9vm1Uu76DKPHVhm0Uu/YWap3WtH2qeuqzv8v5CzdO61i+agyHYZqWPuuesL585+4tnAgAAAAAAAAAAAAAAAAAAAAAAAAAAv+MFM56x34BDAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="40" height="108">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WSU4CQRiFO17AIVFXFCKiiUuHRN067dSoGziA0000mngF9ho9hInzDRwWGt0gJIjjytehOzRlVXXRjYbF+5Ivf6CmVw1VUE44ziuswHzGcfYD5i31MbWp2k1tvt3CcXpgr9D3KSD7CyzCUsK+zaVdVGsnapeoZTG1BZ3A+5Oi+rz6UFOwH6bhgIi3hsuI994Y6rg0Vtem0s03jT4zcBbOwXkRb40omL5Ha5h/HW7ATbgloq1hkyFKvm3k2fEy7aLuGfLZrGGb03Rugu0HyHPoZTpCPRb1Y9xals6772nWcc7gObyAl/AKXmfr15DHx0XOpzvvFeR4g+/wA37CL/gt5ZPHq56f6Vn65IbVWf3zLs+TyuHcw3Su2jeDOgiHcurxUzHzqZ6h6a5bQI5FuOTlWUZdgave64ekfn2/6ua3yefi3nUdQn+f2u5Tl0+e3/ZZBu+6UWG+TxvJJueT55f73uAzuIV38D75O18j69pqml/u++hlekJ9bsF8BS9TEbWUVPdrRibTfGHzh+3jL/IF5wz7XGxw++l+R0yetNUMW8t2X7qxNv8bZVV7ipovTPl3wEbTnpqZ7T/3RAghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhLQiP+EIObuAQwAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="40" height="108">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QwQmAIBQG4Cbp1gQt2gbt0qFWaYy8CB3CirQkvg8E4anvfzYNV43tN337RN99bXqQ72qPM0s4u4Y1F/yrVI9YK52B/IbueJ/z/bhyvJVTiXlLqz2zfM/8OV+8W/uMd/xxJgAAAAAAAAAAAAAAAACAt23vfcMxgEMAAA==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="40" height="108">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VuU7DQBCGly6Yhj6y3eCGRwgdFTVd4JFoTB2SSCBxSEDHC1BxSYDEURjKVFwPEHGMFa28Gc9uvCSKUvyf9Mv2HjP/7NpepQrSRKksVOqF9BoOnnNd0v0V6Zp0Q9pOCrn63uj5nfRB+iR9hYM8o/pSQybfNOaH9JuPjZSaiwZxTLL54RwS2p9mMSr3876+ETcVFLMYmiSyx+E56guyP42eK1EP3P5WLf7WLO187Xmf5M/Fygh/rnwmx7SnJ6RTtrfthlKdxnDbLj3vGW2bwfB8ndN8Z6W6uL+tSO7Lr7cU9450H5ZrazWV2iG1SR1St1nE0bn5/HHh/qS+KnmkcWZc3z1dXy637VPNB6RD0pGwflU8as5qZX9mfN+40n/Q5m9poxwji+3rk18vQnt8n7pt3n32WPIn/Uu7UbX4Vf35jHO915pz5u+B9uCR9ER6jt3+9DniereryMefq3ZOfwr+eoK/XlweJ8WblFqBPX5N+KZs68fn83NgnPUzc0g5fb5BPdd2jrgknW2uHFXqss31iaUl1fRffz7+JzFnkt6mWdOsCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJhF/gBoH4/VgEMAAA==
+  </data>
+ </layer>
+</map>

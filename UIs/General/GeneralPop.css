@@ -1,0 +1,72 @@
+.popRequest{
+    position: absolute;
+    bottom: 50px;
+    width: 200px;
+    height:100px;
+    border:1px solid #00A2FF;
+    background-color: #90dff8;
+    
+}
+
+.popRequest_type{
+    height:25px;
+    line-height: 25px;
+  
+}
+.popRequest_from{
+    
+    margin: 0 auto;
+    padding: 0px;
+    height:20px;
+    background: white;
+    line-height: 20px;
+}
+
+
+.popRequest_timer{
+    
+    border: black 1px solid;
+   
+    
+}
+.popRequest_prograss{
+    width:90%;
+    background: black;
+   
+    padding: 2px 0px 2px 0px; 
+    margin: 1px 2px 1px 2px;
+}
+
+.popRequest_response{
+    height:40px;
+       
+}
+
+.popRequest_response_yes{
+    margin-top: 10px; 
+    width:50px;
+    height:20px;
+    background: #0dccc0;
+    display:inline-block;
+    cursor: pointer;
+    line-height: 20px;
+}
+.popRequest_response_yes:hover{
+    border: 1px solid black;
+}
+
+
+.popRequest_response_no{
+     margin-top: 10px;
+    width:50px;
+    height:20px;
+    background: #e84b3a;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 20px;
+}
+.popRequest_response_no:hover{
+    border: 1px solid black;
+}
+
+

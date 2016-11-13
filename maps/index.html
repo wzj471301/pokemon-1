@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pokemon web</title>
+
+<style>
+*{margin: 0; padding:0;}
+
+html, body 
+{
+	background-color: #FFF;
+	overflow: hidden;
+	height:100%;
+}
+</style>
+
+
+
+</head>
+
+<body>
+
+<canvas id="canvas" width= "1000" height="1000" style="border:1px solid black;";>
+your browers doe not?
+</canvas>
+<div id ="tile"></div>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="TiledMap.js"></script>
+<script>
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var a =new TiledMap();
+
+
+window.setInterval(function(){
+		//a.drawAll(0);
+a.drawAllSquare(0,0,100);
+a.drawgid();
+},200);
+window.onclick=function(e){
+var x= Math.floor(e.clientX/16);
+var y= Math.floor(e.clientY/16);
+alert(x +", "+ y);
+a.geTerrain(x,y);
+
+}
+</script>
+</body>
+</html>
